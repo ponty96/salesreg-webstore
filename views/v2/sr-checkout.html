@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../../assets/stylesheet/app.css" crossorigin="anonymous">
+
+	<!-- Feather Icons -->
+	<link href="../../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
+
+	<!-- Material Icons -->
+	<link href="../../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
+
+	<!-- Fontawesome Icons -->
+	<link href="../../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
+	<link href="../../assets/fonts/font-awesome.5.1/css/all.css" rel="stylesheet"/>
+
+	<title>Checkout</title>
+</head>
+<body>
+
+<main>
+
+	<nav class="sr-nav sr-with-banner">
+		<div class="sr-nav__container">
+			<div class="container">
+				<div class="sr-nav__logo">
+					<a href="../../views/v2/sr-home.html" style="height: 27px;">
+						<img src="../../assets/images/svg/ayonative_logo.svg" />
+					</a>
+				</div>
+				<ul class="sr-nav__links">
+					<a href="../../views/v2/sr-home.html"><li>Home</li></a>
+					<a href="../../views/v2/sr-category.html"><li>Category</li></a>
+					<a href="../../views/v2/sr-store.html"><li>Store</li></a>
+				</ul>
+				<ul class="sr-nav__cart">
+					<li>
+						<button class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></button>
+						<span>(2)</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<nav class="sr-nav--mobile">
+		<a href="sr-home.html" class="sr-nav--mobile__link">
+			<img src="../../assets/images/svg/ayonative_logo.svg" />
+		</a>
+
+		<div class="d-flex align-items-center">
+			<ul class="sr-nav__cart" style="margin-right: 4rem;">
+				<li>
+					<button class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></button>
+					<span>(2)</span>
+				</li>
+			</ul>
+			<div class="sr-nav--mobile__burger">
+				<div id="menu-reveal">
+					<div id="sr-sideNav--mobile__icon" class="">
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main id="sr-content" role="main">
+
+		<!-- Side Nav -->
+		<div id="sr-sideNav--mobile">
+			<div class="sr-sideNav--mobile__wrapper">
+				<ul class="sr-sideNav--mobile__ul">
+					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-home.html">Home</a></li>
+					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-category.html">Category</a></li>
+					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-store.html">Store</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Mobile Nav Mask -->
+		<div id="sr-sideNav--mobile__mask"></div>
+
+		<!-- Featured Post -->
+		<section class="sr-checkout__detail">
+			<div class="container">
+				<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Checkout</pre>
+				<div class="row">
+					<div class="col-md-8">
+
+						<div class="sr-breadCrumb__wizard">
+							<span>Cart</span><span class="active">Customer information</span><span>Payment method</span>
+						</div>
+
+						<div class="sr-checkout__contentMain">
+							<form class="sr-checkout__formContent">
+								<div class="sr-checkout__customerInfo d-none">
+									<div class="sr-formGroup">
+										<div class="sr-labelled__labelWrapper">
+											<div class="sr-label"><label id="1" for="TextField1" class="sr-label__text">Email address</label></div>
+										</div>
+										<div class="sr-textField"><input id="TextField1" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+											<div class="sr-textField__backDrop"></div>
+										</div>
+										<div class="sr-lebelled__helpText" id="TextField1HelpText">We will send the purchase receipt to this address.</div>
+									</div>
+
+									<div class="sr-formGroup">
+										<div class="sr-labelled__labelWrapper">
+											<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">Password</label></div>
+										</div>
+										<div class="sr-textField"><input id="TextField2" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+											<div class="sr-textField__backDrop"></div>
+										</div>
+									</div>
+
+									<div class="sr-formGroup">
+										<button class="sr-button">Login & continue</button>
+									</div>
+								</div>
+
+								<div class="sr-checkout__paymentMethod">
+									<div class="sr-formGroup">
+										<div class="sr-labelled__labelWrapper">
+											<div class="sr-label"><label id="1" for="TextField1" class="sr-label__text">Card number</label></div>
+										</div>
+										<div class="sr-textField"><input id="TextField1" placeholder="**** **** **** ****" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+											<div class="sr-textField__backDrop"></div>
+										</div>
+									</div>
+
+									<div class="sr-formGroup">
+										<div class="row">
+											<div class="col-lg-6">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">Card Holder</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField2" placeholder="Adekunle Amaka" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+											<div class="col-lg-3">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">Exp. Date</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField2" placeholder="mm / yr" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+											<div class="col-lg-3">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">CVV</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField2" placeholder="***" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="sr-formGroup">
+										<button class="sr-button">Complete order</button>
+									</div>
+								</div>
+							</form>
+
+							<div class="sr-checkout__baseInfo">
+								<div class="row">
+									<div class="col-lg-6">
+										<img src="../../assets/images/svg/lock.svg" style="width: 1.5rem; margin-bottom: .5rem"/>
+										<span class="sr-title__primary">Your information is safe</span>
+										<p class="sr-text__primary">We will not sell or rent your personal information for any marketing purposes whatsoever.</p>
+									</div>
+
+									<div class="col-lg-6">
+										<img src="../../assets/images/svg/shield.svg" style="width: 1.5rem; margin-bottom: .5rem"/>
+										<span class="sr-title__primary">Secured checkout</span>
+										<p class="sr-text__primary">All information is encrypted and transmitted with risk using a Secure Socket Layer protocol. You can trust us!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="sr-product__contentSticky">
+							<div class="sr-cart__overview">
+
+								<div class="sr-cart__overviewTerms">
+									<div>
+										<img src="/" />
+									</div>
+									<p>By placing your order, you agree to the <a href="#">Delivery Terms</a> </p>
+								</div>
+
+								<ul class="sr-cart__overviewPrices">
+									<li class="sr-cart__overviewPriceItems">
+										<span>Subtotal</span>
+										<span>$9,598.72</span>
+									</li>
+
+									<li class="sr-cart__overviewPriceItems">
+										<span>Tax</span>
+										<span>$0.00</span>
+									</li>
+								</ul>
+
+								<div class="sr-cart__overviewPriceTotal">
+									<span>Total</span>
+									<span>$9,598.72</span>
+								</div>
+							</div>
+
+							<div class="sr-button__icon mt-3">
+								<button class="w-100"><span>Checkout</span><span><i class="fa fa-arrow-right"></i> </span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<div class="sr-footer__cart">
+		<div class="container">
+			<div class="sr-footer__container">
+				<span class="copyright">Powered by Salesreg.</span>
+				<a href="#">Privacy Policy</a>
+				<a href="#">Terms &amp; Conditions</a>
+			</div>
+		</div>
+	</div>
+
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../../assets/javascript/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="../../assets/javascript/popper.min.js" crossorigin="anonymous"></script>
+<script src="../../assets/javascript/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script>
+    (function($) {
+        $(document).ready(function() {
+            var $menuRevealBtn = $('#menu-reveal');
+            var $sideNav = $('#sr-sideNav--mobile');
+            var $sideNavMask = $('#sr-sideNav--mobile__mask');
+
+            $menuRevealBtn.on('click', function() {
+                $sideNav.addClass('visible');
+                $sideNavMask.addClass('visible');
+            });
+
+            $sideNavMask.on('click', function() {
+                $sideNav.removeClass('visible');
+                $sideNavMask.removeClass('visible');
+            });
+        });
+    })(jQuery)
+</script>
+</body>
+</html>

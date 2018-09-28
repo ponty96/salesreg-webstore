@@ -1,0 +1,11 @@
+// core styles
+@import "scss/bootstrap";
+@import "sr-mixin";
+@import "sr-global";
+
+// miscellaneous
+@import "nav-menu/sr-mobile";
+
+//pages
+
+@import "home";
