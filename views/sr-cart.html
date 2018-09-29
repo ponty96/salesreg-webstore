@@ -6,13 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../assets/stylesheet/app.css" crossorigin="anonymous">
-
-	<!-- Feather Icons -->
-	<link href="../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
-
-	<!-- Material Icons -->
-	<link href="../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="../assets/stylesheet/app.css">
 
 	<!-- Fontawesome Icons -->
 	<link href="../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
@@ -22,7 +16,7 @@
 </head>
 <body>
 
-<nav class="sr-nav sr-with-banner">
+	<nav class="sr-nav sr-with-banner">
 	<div class="sr-nav__container">
 		<div class="container">
 			<div class="sr-nav__logo">
@@ -45,32 +39,32 @@
 	</div>
 </nav>
 
-<nav class="sr-nav--mobile">
-	<a href="../index.html" class="sr-nav--mobile__link">
-		<img src="../assets/images/svg/ayonative_logo.svg" />
-	</a>
+	<nav class="sr-nav--mobile">
+		<a href="../index.html" class="sr-nav--mobile__link">
+			<img src="../assets/images/svg/ayonative_logo.svg" />
+		</a>
 
-	<div class="d-flex align-items-center">
-		<ul class="sr-nav__cart" style="margin-right: 4rem;">
-			<li>
-				<button class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></button>
-				<span>(2)</span>
-			</li>
-		</ul>
-		<div class="sr-nav--mobile__burger">
-			<div id="menu-reveal">
-				<div id="sr-sideNav--mobile__icon" class="">
-					<span class=""></span>
-					<span class=""></span>
-					<span class=""></span>
-					<span class=""></span>
-					<span class=""></span>
-					<span class=""></span>
+		<div class="d-flex align-items-center">
+			<ul class="sr-nav__cart" style="margin-right: 4rem;">
+				<li onclick="location.href='views/sr-cart.html';" style="cursor: pointer;">
+					<span class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></span>
+					<span>(2)</span>
+				</li>
+			</ul>
+			<div class="sr-nav--mobile__burger">
+				<div id="menu-reveal">
+					<div id="sr-sideNav--mobile__icon" class="">
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</nav>
+	</nav>
 
 <main id="sr-content" role="main">
 

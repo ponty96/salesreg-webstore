@@ -6,13 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../assets/stylesheet/app.css" crossorigin="anonymous">
-
-	<!-- Feather Icons -->
-	<link href="../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
-
-	<!-- Material Icons -->
-	<link href="../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="../assets/stylesheet/app.css">
 
 	<!-- Fontawesome Icons -->
 	<link href="../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
@@ -54,8 +48,8 @@
 
 		<div class="d-flex align-items-center">
 			<ul class="sr-nav__cart" style="margin-right: 4rem;">
-				<li>
-					<button class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></button>
+				<li onclick="location.href='views/sr-cart.html';" style="cursor: pointer;">
+					<span class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></span>
 					<span>(2)</span>
 				</li>
 			</ul>
@@ -90,7 +84,7 @@
 		<!-- Mobile Nav Mask -->
 		<div id="sr-sideNav--mobile__mask"></div>
 
-		<!-- Featured Post -->
+		<!-- Checkout Post -->
 		<section class="sr-checkout__detail">
 			<div class="container">
 				<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Checkout</pre>
@@ -168,7 +162,7 @@
 									</div>
 
 									<div class="sr-formGroup">
-										<button onclick="location.href='sr-checkout-complete.html';" style="cursor: pointer" class="sr-button">Complete order</button>
+										<button onclick="location.href='../view/sr-checkout-complete.html';" style="cursor: pointer" class="sr-button">Complete order</button>
 									</div>
 								</div>
 							</form>
