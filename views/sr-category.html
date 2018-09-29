@@ -6,17 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../../assets/stylesheet/app.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="../assets/stylesheet/app.css" crossorigin="anonymous">
 
 	<!-- Feather Icons -->
-	<link href="../../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
+	<link href="../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
 
 	<!-- Material Icons -->
-	<link href="../../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
+	<link href="../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
 
 	<!-- Fontawesome Icons -->
-	<link href="../../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
-	<link href="../../assets/fonts/font-awesome.5.1/css/all.css" rel="stylesheet"/>
+	<link href="../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
+	<link href="../assets/fonts/font-awesome.5.1/css/all.css" rel="stylesheet"/>
 
 	<title>Web</title>
 </head>
@@ -27,24 +27,27 @@
 		<div class="container">
 			<div class="sr-nav__logo">
 				<a href="#" style="height: 27px;">
-					<img src="../../assets/images/svg/ayonative_logo.svg" />
+					<img src="../assets/images/svg/ayonative_logo.svg" />
 				</a>
 			</div>
 			<ul class="sr-nav__links">
-				<a href="../../views/v2/sr-home.html"><li>Home</li></a>
-				<a href="../../views/v2/sr-category.html"><li>Category</li></a>
-				<a href="../../views/v2/sr-store.html"><li>Store</li></a>
+				<a href="../index.html"><li>Home</li></a>
+				<a href="sr-category.html"><li>Category</li></a>
+				<a href="sr-store.html"><li>Store</li></a>
 			</ul>
 			<ul class="sr-nav__cart">
-				<li><button class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i> </button><span>(2)</span></li>
+				<li onclick="location.href='sr-cart.html';" style="cursor: pointer;">
+					<span class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></span>
+					<span>(2)</span>
+				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
 
 <nav class="sr-nav--mobile">
-	<a href="sr-home.html" class="sr-nav--mobile__link">
-		<img src="../../assets/images/svg/ayonative_logo.svg" />
+	<a href="../index.html" class="sr-nav--mobile__link">
+		<img src="../assets/images/svg/ayonative_logo.svg" />
 	</a>
 
 	<div class="d-flex align-items-center">
@@ -75,9 +78,9 @@
 	<div id="sr-sideNav--mobile">
 		<div class="sr-sideNav--mobile__wrapper">
 			<ul class="sr-sideNav--mobile__ul">
-				<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-home.html">Home</a></li>
+				<li class="sr-sideNav--mobile__li"><a href="../index.html">Home</a></li>
 				<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-category.html">Category</a></li>
-				<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-store.html">Store</a></li>
+				<li class="sr-sideNav--mobile__li"><a href="sr-store.html">Store</a></li>
 			</ul>
 		</div>
 	</div>
@@ -93,10 +96,10 @@
 				<div class="col-lg-6 p-2">
 					<div class="sr-category--one sr-category--one-main-mb">
 						<div style="width: 100%">
-							<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/Model-with-bag.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image"></a>
+							<a href="sr-product-detail.html" style="background-image: url('../assets/images/Model-with-bag.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image"></a>
 							<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 							</div>
 						</div>
@@ -108,10 +111,10 @@
 						<div class="col-lg-12 col-md-6 col-12 p-2">
 							<div class="sr-category--one">
 								<div style="width: 100%">
-									<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/Indigo0096.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
+									<a href="sr-product-detail.html" style="background-image: url('../assets/images/Indigo0096.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
 									<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 									</div>
 								</div>
@@ -121,10 +124,10 @@
 						<div class="col-lg-12 col-md-6 col-12 p-2">
 							<div class="sr-category--one">
 								<div style="width: 100%">
-									<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/Indigo0140.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
+									<a href="sr-product-detail.html" style="background-image: url('../assets/images/Indigo0140.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
 									<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 									</div>
 								</div>
@@ -138,10 +141,10 @@
 						<div class="col-lg-12 col-md-6 col-12 p-2">
 							<div class="sr-category--one">
 								<div style="width: 100%">
-									<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/Indigo0096.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
+									<a href="sr-product-detail.html" style="background-image: url('../assets/images/Indigo0096.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
 									<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 									</div>
 								</div>
@@ -151,10 +154,10 @@
 						<div class="col-lg-12 col-md-6 col-12 p-2">
 							<div class="sr-category--one">
 								<div style="width: 100%">
-									<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/Indigo0140.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
+									<a href="sr-product-detail.html" style="background-image: url('../assets/images/Indigo0140.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
 									<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 									</div>
 								</div>
@@ -166,10 +169,10 @@
 				<div class="col-lg-6 p-2">
 					<div class="sr-category--one sr-category--one-main-mb">
 						<div style="width: 100%">
-							<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/Model-with-bag.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image"></a>
+							<a href="sr-product-detail.html" style="background-image: url('../assets/images/Model-with-bag.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image"></a>
 							<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 							</div>
 						</div>
@@ -179,10 +182,10 @@
 				<div class="col-lg-4 col-md-6 p-2">
 					<div class="sr-category--one">
 						<div style="width: 100%">
-							<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/eye-glass.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
+							<a href="sr-product-detail.html" style="background-image: url('../assets/images/eye-glass.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
 							<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 							</div>
 						</div>
@@ -192,10 +195,10 @@
 				<div class="col-lg-4 col-md-6 p-2">
 					<div class="sr-category--one">
 						<div style="width: 100%">
-							<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/cross-board.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
+							<a href="sr-product-detail.html" style="background-image: url('../assets/images/cross-board.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
 							<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 							</div>
 						</div>
@@ -205,10 +208,10 @@
 				<div class="col-lg-4 p-2">
 					<div class="sr-category--one">
 						<div style="width: 100%">
-							<a href="../../views/v2/sr-product-detail.html" style="background-image: url('../../assets/images/Indigo0140.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
+							<a href="sr-product-detail.html" style="background-image: url('../assets/images/Indigo0140.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-category--one-image sr-category--one-2"></a>
 							<div class="sr-category--label">
 									<span class="sr-block">
-										<a href="../../views/v2/sr-store.html">Lounge Jumpsuit</a>
+										<a href="sr-store.html">Lounge Jumpsuit</a>
 									</span>
 							</div>
 						</div>
@@ -224,7 +227,7 @@
 
 		<div class="sr-footer__company">
 			<div class="sr-footer__logo">
-				<img src="../../assets/images/svg/ayonative_logo__white.svg" />
+				<img src="../assets/images/svg/ayonative_logo__white.svg" />
 			</div>
 			<div class="sr-footer__social">
 				<a href="https://www.youtube.com/channel/UC7rmfH6I-Anhx0e6TRERBZQ" class="yt">
@@ -360,9 +363,9 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="../../assets/javascript/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-<script src="../../assets/javascript/popper.min.js" crossorigin="anonymous"></script>
-<script src="../../assets/javascript/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/popper.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <script>
     (function($) {

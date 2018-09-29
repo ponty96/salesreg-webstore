@@ -6,17 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../../assets/stylesheet/app.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="../assets/stylesheet/app.css" crossorigin="anonymous">
 
 	<!-- Feather Icons -->
-	<link href="../../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
+	<link href="../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
 
 	<!-- Material Icons -->
-	<link href="../../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
+	<link href="../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
 
 	<!-- Fontawesome Icons -->
-	<link href="../../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
-	<link href="../../assets/fonts/font-awesome.5.1/css/all.css" rel="stylesheet"/>
+	<link href="../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
+	<link href="../assets/fonts/font-awesome.5.1/css/all.css" rel="stylesheet"/>
 
 	<title>Checkout</title>
 </head>
@@ -28,18 +28,18 @@
 		<div class="sr-nav__container">
 			<div class="container">
 				<div class="sr-nav__logo">
-					<a href="../../views/v2/sr-home.html" style="height: 27px;">
-						<img src="../../assets/images/svg/ayonative_logo.svg" />
+					<a href="../index.html" style="height: 27px;">
+						<img src="../assets/images/svg/ayonative_logo.svg" />
 					</a>
 				</div>
 				<ul class="sr-nav__links">
-					<a href="../../views/v2/sr-home.html"><li>Home</li></a>
-					<a href="../../views/v2/sr-category.html"><li>Category</li></a>
-					<a href="../../views/v2/sr-store.html"><li>Store</li></a>
+					<a href="../index.html"><li>Home</li></a>
+					<a href="sr-category.html"><li>Category</li></a>
+					<a href="sr-store.html"><li>Store</li></a>
 				</ul>
 				<ul class="sr-nav__cart">
-					<li>
-						<button class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></button>
+					<li onclick="location.href='sr-cart.html';" style="cursor: pointer;">
+						<span class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></span>
 						<span>(2)</span>
 					</li>
 				</ul>
@@ -48,8 +48,8 @@
 	</nav>
 
 	<nav class="sr-nav--mobile">
-		<a href="sr-home.html" class="sr-nav--mobile__link">
-			<img src="../../assets/images/svg/ayonative_logo.svg" />
+		<a href="../index.html" class="sr-nav--mobile__link">
+			<img src="../assets/images/svg/ayonative_logo.svg" />
 		</a>
 
 		<div class="d-flex align-items-center">
@@ -80,9 +80,9 @@
 		<div id="sr-sideNav--mobile">
 			<div class="sr-sideNav--mobile__wrapper">
 				<ul class="sr-sideNav--mobile__ul">
-					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-home.html">Home</a></li>
-					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-category.html">Category</a></li>
-					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-store.html">Store</a></li>
+					<li class="sr-sideNav--mobile__li"><a href="../index.html">Home</a></li>
+					<li class="sr-sideNav--mobile__li"><a href="sr-category.html">Category</a></li>
+					<li class="sr-sideNav--mobile__li"><a href="sr-store.html">Store</a></li>
 				</ul>
 			</div>
 		</div>
@@ -98,7 +98,7 @@
 					<div class="col-md-8">
 
 						<div class="sr-breadCrumb__wizard">
-							<span>Cart</span><span class="active">Customer information</span><span>Payment method</span>
+							<span>Cart</span><span>Customer information</span><span class="active">Payment method</span>
 						</div>
 
 						<div class="sr-checkout__contentMain">
@@ -168,7 +168,7 @@
 									</div>
 
 									<div class="sr-formGroup">
-										<button class="sr-button">Complete order</button>
+										<button onclick="location.href='sr-checkout-complete.html';" style="cursor: pointer" class="sr-button">Complete order</button>
 									</div>
 								</div>
 							</form>
@@ -176,13 +176,13 @@
 							<div class="sr-checkout__baseInfo">
 								<div class="row">
 									<div class="col-lg-6">
-										<img src="../../assets/images/svg/lock.svg" style="width: 1.5rem; margin-bottom: .5rem"/>
+										<img src="../assets/images/svg/lock.svg" style="width: 1.5rem; margin-bottom: .5rem"/>
 										<span class="sr-title__primary">Your information is safe</span>
 										<p class="sr-text__primary">We will not sell or rent your personal information for any marketing purposes whatsoever.</p>
 									</div>
 
 									<div class="col-lg-6">
-										<img src="../../assets/images/svg/shield.svg" style="width: 1.5rem; margin-bottom: .5rem"/>
+										<img src="../assets/images/svg/shield.svg" style="width: 1.5rem; margin-bottom: .5rem"/>
 										<span class="sr-title__primary">Secured checkout</span>
 										<p class="sr-text__primary">All information is encrypted and transmitted with risk using a Secure Socket Layer protocol. You can trust us!</p>
 									</div>
@@ -219,10 +219,6 @@
 									<span>$9,598.72</span>
 								</div>
 							</div>
-
-							<div class="sr-button__icon mt-3">
-								<button class="w-100"><span>Checkout</span><span><i class="fa fa-arrow-right"></i> </span></button>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -245,9 +241,9 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="../../assets/javascript/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-<script src="../../assets/javascript/popper.min.js" crossorigin="anonymous"></script>
-<script src="../../assets/javascript/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/popper.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <script>
     (function($) {

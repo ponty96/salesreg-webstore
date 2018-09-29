@@ -6,42 +6,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../../assets/stylesheet/app.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="../assets/stylesheet/app.css" crossorigin="anonymous">
+
+	<!-- Feather Icons -->
+	<link href="../assets/fonts/feather-icons/flaticon.css" rel="stylesheet"/>
+
+	<!-- Material Icons -->
+	<link href="../assets/fonts/material-design/flaticon.css" rel="stylesheet"/>
 
 	<!-- Fontawesome Icons -->
-	<link href="../../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
-	<link href="../../assets/fonts/font-awesome.5.1/css/all.css" rel="stylesheet"/>
+	<link href="../assets/fonts/font-awesome.5.1/css/fontawesome.min.css" rel="stylesheet"/>
+	<link href="../assets/fonts/font-awesome.5.1/css/all.css" rel="stylesheet"/>
 
-	<title>Product Details</title>
+	<title>Web</title>
 </head>
 <body>
 
-	<nav class="sr-nav sr-with-banner">
+<nav class="sr-nav sr-with-banner">
 	<div class="sr-nav__container">
 		<div class="container">
 			<div class="sr-nav__logo">
-				<a href="../../views/v2/sr-home.html" style="height: 27px;">
-					<img src="../../assets/images/svg/ayonative_logo.svg" />
+				<a href="../index.html" style="height: 27px;">
+					<img src="../assets/images/svg/ayonative_logo.svg" />
 				</a>
 			</div>
 			<ul class="sr-nav__links">
-				<a href="../../views/v2/sr-home.html"><li>Home</li></a>
-				<a href="../../views/v2/sr-category.html"><li>Category</li></a>
-				<a href="../../views/v2/sr-store.html"><li>Store</li></a>
+				<a href="../index.html"><li>Home</li></a>
+				<a href="sr-category.html"><li>Category</li></a>
+				<a href="sr-store.html"><li>Store</li></a>
 			</ul>
 			<ul class="sr-nav__cart">
-				<li>
-					<button class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></button>
+				<li onclick="location.href='sr-cart.html';" style="cursor: pointer;">
+					<span class="sr-nav__cart__cart"><i class="fa fa-shopping-cart"></i></span>
 					<span>(2)</span>
 				</li>
 			</ul>
 		</div>
 	</div>
-	</nav>
+</nav>
 
-	<nav class="sr-nav--mobile">
-	<a href="sr-home.html" class="sr-nav--mobile__link">
-		<img src="../../assets/images/svg/ayonative_logo.svg" />
+<nav class="sr-nav--mobile">
+	<a href="../index.html" class="sr-nav--mobile__link">
+		<img src="../assets/images/svg/ayonative_logo.svg" />
 	</a>
 
 	<div class="d-flex align-items-center">
@@ -64,7 +70,7 @@
 			</div>
 		</div>
 	</div>
-	</nav>
+</nav>
 
 	<main id="sr-content" role="main">
 
@@ -72,8 +78,8 @@
 		<div id="sr-sideNav--mobile">
 			<div class="sr-sideNav--mobile__wrapper">
 				<ul class="sr-sideNav--mobile__ul">
-					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-home.html">Home</a></li>
-					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-category.html">Category</a></li>
+					<li class="sr-sideNav--mobile__li"><a href="../index.html">Home</a></li>
+					<li class="sr-sideNav--mobile__li"><a href="sr-category.html">Category</a></li>
 					<li class="sr-sideNav--mobile__li"><a href="../../views/v2/sr-store.html">Store</a></li>
 				</ul>
 			</div>
@@ -82,406 +88,415 @@
 		<!-- Mobile Nav Mask -->
 		<div id="sr-sideNav--mobile__mask"></div>
 
-		<!-- Featured Post -->
-		<section class="sr-product__detail">
+		<section class="sr-hero__split__store sr-hero__mainBg__store">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8">
-						<div class="sr-product__contentMain">
-							<div class="sr-product__imageDescMain">
-								<div class="sr-product__imgDesc">
-									<div class="srFeedLink2">
-										<div class="srPostPhoto2">
-											<img src="../../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"/>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Mobile View only -->
-							<div class="sr-product__contentMobile">
-								<div class="sr-product__title">
-									<h1 class="sr-product__detail__title">Flying Apple Macbook Pro 2017 15 Inches With Touch Bar</h1>
-								</div>
-
-								<div class="sr-product__meta">
-									<div class="sr-product__metaItem">
-										<p>Availability:<span>In stock</span></p>
-									</div>
-									<div class="sr-product__metaItem list">
-										<p>Tag:<span>Macbook</span><span>Macbook</span></p>
-									</div>
-								</div>
-
-								<div class="sr-product__share">
-									<button>share <i class="fa fa-share"></i> </button>
-								</div>
-							</div>
-
-							<!-- Product Description -->
-							<div class="sr-product__description">
-								<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Product Details</pre>
-								<div class="sr-product__descriptionCont open">
-									<p>The Nike Zoom Pegasus Turbo is the Pegasus you know and love with major upgrades for speed. The feather-light upper looks as fast as it feels, while the revolutionary Nike ZoomX foam that was designed for elite Nike runners during the Breaking 2 attempt brings record-breaking speed and responsiveness to your daily training runs.</p>
-									<p>The Nike Zoom Pegasus Turbo is the Pegasus you know and love with major upgrades for speed. The feather-light upper looks as fast as it feels, while the revolutionary Nike ZoomX foam that was designed for elite Nike runners during the Breaking 2 attempt brings record-breaking speed and responsiveness to your daily training runs.</p>
-									<p>The Nike Zoom Pegasus Turbo is the Pegasus you know and love with major upgrades for speed. The feather-light upper looks as fast as it feels, while the revolutionary Nike ZoomX foam that was designed for elite Nike runners during the Breaking 2 attempt brings record-breaking speed and responsiveness to your daily training runs.</p>
-									<p>The Nike Zoom Pegasus Turbo is the Pegasus you know and love with major upgrades for speed. The feather-light upper looks as fast as it feels, while the revolutionary Nike ZoomX foam that was designed for elite Nike runners during the Breaking 2 attempt brings record-breaking speed and responsiveness to your daily training runs.</p>
-								</div>
-								<div class="btn">
-									<div class="sr-readMore__btn">Read more</div>
-								</div>
-							</div>
-
-							<div class="sr-product__review">
-								<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Ratings & Reviews</pre>
-								<div class="sr-product__reviewHeader">
-									<div class="sr-product__rating">
-										<div class="srRating">
-											<div class="srRatingItem">
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
-											</div>
-											<div class="srRatingCount font-weight-bold">(4.5)</div>
-										</div>
-									</div>
-									<div class="srRatingCount font-weight-bold">102 Reviews</div>
-								</div>
-								<div class="sr-product__reviewWrapper">
-									<ul class="sr-product__reviewItem">
-										<li>
-											<div class="sr-product__reviewMeta">
-												<div class="sr-product__rating">
-													<div class="srRating">
-														<div class="srRatingItem">
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-														</div>
-														<div class="srRatingCount font-weight-bold">(4.5)</div>
-													</div>
-												</div>
-												<cite>April 3, <span>2018</span></cite>
-											</div>
-											<div class="sr-product__reviewContent">
-												<span>GREAT SHOE, LIGHT AND LOOKS AWESOME ON MY FEET</span>
-												<p>Stylish and the shoe is light. It doesn’t look bulky on my feet. Worn well with jeans or shorts.</p>
-											</div>
-										</li>
-
-										<li>
-											<div class="sr-product__reviewMeta">
-												<div class="sr-product__rating">
-													<div class="srRating">
-														<div class="srRatingItem">
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-														</div>
-														<div class="srRatingCount font-weight-bold">(4.5)</div>
-													</div>
-												</div>
-												<cite>April 3, <span>2018</span></cite>
-											</div>
-											<div class="sr-product__reviewContent">
-												<span>GREAT SHOE, LIGHT AND LOOKS AWESOME ON MY FEET</span>
-												<p>Stylish and the shoe is light. It doesn’t look bulky on my feet. Worn well with jeans or shorts.</p>
-											</div>
-										</li>
-
-										<li>
-											<div class="sr-product__reviewMeta">
-												<div class="sr-product__rating">
-													<div class="srRating">
-														<div class="srRatingItem">
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-														</div>
-														<div class="srRatingCount font-weight-bold">(4.5)</div>
-													</div>
-												</div>
-												<cite>April 3, <span>2018</span></cite>
-											</div>
-											<div class="sr-product__reviewContent">
-												<span>GREAT SHOE, LIGHT AND LOOKS AWESOME ON MY FEET</span>
-												<p>Stylish and the shoe is light. It doesn’t look bulky on my feet. Worn well with jeans or shorts.</p>
-											</div>
-										</li>
-
-										<li>
-											<div class="sr-product__reviewMeta">
-												<div class="sr-product__rating">
-													<div class="srRating">
-														<div class="srRatingItem">
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingIcon"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-															<span><i class="fa fa-star srRatingEmpty"></i> </span>
-														</div>
-														<div class="srRatingCount font-weight-bold">(4.5)</div>
-													</div>
-												</div>
-												<cite>April 3, <span>2018</span></cite>
-											</div>
-											<div class="sr-product__reviewContent">
-												<span>GREAT SHOE, LIGHT AND LOOKS AWESOME ON MY FEET</span>
-												<p>Stylish and the shoe is light. It doesn’t look bulky on my feet. Worn well with jeans or shorts.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="sr-product__reviewMore">
-									<button>Load More </button>
-									<button><span>Write A Review</span><span><i class="fa fa-arrow-right"></i> </span></button>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-6 sr-valign__middle__store">
+						<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Store</pre>
+						<h1 class="sr-font--h1__primary">Lorem ipsum</h1>
 					</div>
+				</div>
+			</div>
+		</section>
 
-					<div class="col-lg-4">
-						<div class="sr-product__contentSticky">
-							<div class="sr-product__content">
-								<div class="sr-product__breadcrumb">
-									<span>Store</span>
-									<span>category</span>
-								</div>
-
-								<div class="sr-product__title">
-									<h1 class="sr-product__detail__title">Flying Apple Macbook Pro 2017 15 Inches With Touch Bar</h1>
-								</div>
-
-								<div class="sr-product__rating">
-									<div class="srRating">
-										<div class="srRatingItem">
-											<span><i class="fa fa-star srRatingIcon"></i> </span>
-											<span><i class="fa fa-star srRatingIcon"></i> </span>
-											<span><i class="fa fa-star srRatingIcon"></i> </span>
-											<span><i class="fa fa-star srRatingEmpty"></i> </span>
-											<span><i class="fa fa-star srRatingEmpty"></i> </span>
-										</div>
-										<div class="srRatingCount font-weight-bold">(4.5)</div>
-									</div>
-								</div>
-
-								<div class="sr-product__price">
-									<h1 class="sr-product__price-font">$125.99</h1>
-								</div>
-
-								<div class="sr-product__meta">
-									<div class="sr-product__metaItem">
-										<p>Availability:<span>In stock</span></p>
-									</div>
-									<div class="sr-product__metaItem list">
-										<p>Tag:<span>Macbook</span><span>Macbook</span></p>
-									</div>
-								</div>
-
-								<div class=" sr-product__addToCart__button">
-									<button class="sr-button shadow-none"><span>Add to cart</span><span><i class="fa fa-arrow-right"></i> </span></button>
-									<button><i class="fa fa-bookmark"></i> </button>
-								</div>
-
-								<div class="sr-product__share">
-									<button>share <i class="fa fa-share-alt-square"></i> </button>
-								</div>
-							</div>
+		<!-- Hero Post -->
+		<section id="sr-hero" class="d-none">
+			<div class="container-fluid">
+				<div class="sr-hero-wrapper">
+					<div style="width: 100%">
+						<a href="/" style="background-image: url('../assets/images/Model-with-bag.jpg'); background-position: 56% 48% !important;" class="sr-block sr-backgroundCover sr-hero--image"></a>
+						<div class="sr-her--label">
+						<span class="sr-block mb-3">
+							<a href="/">OUR NEW NATURE PLATES OR PLAYFUL MEAL</a>
+						</span>
+							<span class="sr-hero--link"><a href="/">Shop Now</a></span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="sr-product--mobileCheckout">
+		<!-- Featured Post -->
+		<section class="sr-featured-post__home">
 			<div class="container">
-				<div class="sr-product--mobileCheckout__wrapper">
-					<div class="sr-product--mobile__wrapper1">
-						<div class="sr-product--mmobile__table">
-							<div class="sr-product--mobile__price">
-								<div class="sr-product--mobile__overflowWrap">
-									<div class="sr-product--mobile__lineHeight">
-										<div class="sr-product--mobile__inline">
-											<span>$2,343.99</span>
-										</div>
-									</div>
-									<div class="srRatingMobileCheckout">
-										<div class="srRatingItemMobileCheckout">
-											<span><i class="fa fa-star srRatingIcon"></i> </span>
-											<span><i class="fa fa-star srRatingIcon"></i> </span>
-											<span><i class="fa fa-star srRatingIcon"></i> </span>
-											<span><i class="fa fa-star srRatingEmpty"></i> </span>
-											<span><i class="fa fa-star srRatingEmpty"></i> </span>
-										</div>
-										<div class="srRatingCount">(4.5)</div>
-									</div>
-								</div>
-							</div>
+				<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Filter</pre>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="sr-store__filter">
+							<form>
 
-							<div class="sr-product--mobile__button">
-								<div style="margin-left: 8px;">
-									<div class="sr-product--mobile__buttonWrapper">
-										<button type="submit" aria-busy="false">
-											<span>
-												<div class="sr-checkoutButtonMobile">Add to Cart</div>
-											</span>
-										</button>
-									</div>
-								</div>
-							</div>
+							</form>
 						</div>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Related Product -->
-		<section class="sr-related__post">
-			<div class="container">
-				<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Related Post</pre>
-				<div class="sr1">
-					<ul class="list-unstyled">
-						<li>
-							<div class="srTitle2">
-								<a class="srFeedLink2" href="../../views/v2/sr-product-detail.html">
-									<div class="srPostPhoto2">
-										<img src="../../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"/>
-										<div class="srShare2">
-											<span><i class="fab fa-facebook-f"></i> </span>
-											<span><i class="fab fa-twitter"></i> </span>
-											<span><i class="fab fa-instagram"></i> </span>
-										</div>
-									</div>
-								</a>
-								<div class="srPostMeta2">
-									<div class="srPostInfo2">
-										<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
-										<h3 class="srProductPrice">$20.99</h3>
-									</div>
-
-									<div class="srDetails2">
-										<div class="srRating">
-											<div class="srRatingItem">
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
+					<div class="col-md-9">
+						<div class="sr1">
+							<ul class="list-unstyled">
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
 											</div>
-											<div class="srRatingCount font-weight-bold">(4.5)</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="srTitle2">
-								<a class="srFeedLink2" href="../../views/v2/sr-product-detail.html">
-									<div class="srPostPhoto2">
-										<img src="../../assets/images/Indigo0096.jpg" alt="testing image" style="opacity: 1"/>
-										<div class="srShare2">
-											<span><i class="fab fa-facebook-f"></i> </span>
-											<span><i class="fab fa-twitter"></i> </span>
-											<span><i class="fab fa-instagram"></i> </span>
-										</div>
-									</div>
-								</a>
-								<div class="srPostMeta2">
-									<div class="srPostInfo2">
-										<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
-										<h3 class="srProductPrice">$20.99</h3>
-									</div>
-
-									<div class="srDetails2">
-										<div class="srRating">
-											<div class="srRatingItem">
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
 											</div>
-											<div class="srRatingCount font-weight-bold">(4.5)</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="srTitle2">
-								<a class="srFeedLink2" href="../../views/v2/sr-product-detail.html">
-									<div class="srPostPhoto2">
-										<img src="../../assets/images/cross-board.jpg" alt="testing image" style="opacity: 1"/>
-										<div class="srShare2">
-											<span><i class="fab fa-facebook-f"></i> </span>
-											<span><i class="fab fa-twitter"></i> </span>
-											<span><i class="fab fa-instagram"></i> </span>
-										</div>
-									</div>
-								</a>
-								<div class="srPostMeta2">
-									<div class="srPostInfo2">
-										<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
-										<h3 class="srProductPrice">$20.99</h3>
-									</div>
 
-									<div class="srDetails2">
-										<div class="srRating">
-											<div class="srRatingItem">
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
 											</div>
-											<div class="srRatingCount font-weight-bold">(4.5)</div>
 										</div>
 									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="srTitle2">
-								<a class="srFeedLink2" href="../../views/v2/sr-product-detail.html">
-									<div class="srPostPhoto2">
-										<img src="../../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"/>
-										<div class="srShare2">
-											<span><i class="fab fa-facebook-f"></i> </span>
-											<span><i class="fab fa-twitter"></i> </span>
-											<span><i class="fab fa-instagram"></i> </span>
-										</div>
-									</div>
-								</a>
-								<div class="srPostMeta2">
-									<div class="srPostInfo2">
-										<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
-										<h3 class="srProductPrice">$20.99</h3>
-									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/Indigo0096.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
 
-									<div class="srDetails2">
-										<div class="srRating">
-											<div class="srRatingItem">
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingIcon"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
-												<span><i class="fa fa-star srRatingEmpty"></i> </span>
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
 											</div>
-											<div class="srRatingCount font-weight-bold">(4.5)</div>
 										</div>
 									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/cross-board.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/Indigo0096.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/banner.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/Indigo0096.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/cross-board.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/Indigo0096.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="srTitle2">
+										<a class="srFeedLink2" href="sr-product-detail.html">
+											<div class="srPostPhoto2">
+												<img src="../assets/images/banner.jpg" alt="testing image" style="opacity: 1"/>
+												<div class="srShare2">
+													<span><i class="fab fa-facebook-f"></i> </span>
+													<span><i class="fab fa-twitter"></i> </span>
+													<span><i class="fab fa-instagram"></i> </span>
+												</div>
+											</div>
+										</a>
+										<div class="srPostMeta2">
+											<div class="srPostInfo2">
+												<h3 class="srProductTitle">Testing for muzil style of grid listing to know which to choose from at the end</h3>
+												<h3 class="srProductPrice">$20.99</h3>
+											</div>
+
+											<div class="srDetails2">
+												<div class="srRating">
+													<div class="srRatingItem">
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingIcon"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+														<span><i class="flaticon-mark-as-favorite-star srRatingEmpty"></i> </span>
+													</div>
+													<div class="srRatingCount">(30)</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -493,7 +508,7 @@
 
 			<div class="sr-footer__company">
 				<div class="sr-footer__logo">
-					<img src="../../assets/images/svg/ayonative_logo__white.svg" />
+					<img src="../assets/images/svg/ayonative_logo__white.svg" />
 				</div>
 				<div class="sr-footer__social">
 					<a href="https://www.youtube.com/channel/UC7rmfH6I-Anhx0e6TRERBZQ" class="yt">
@@ -627,25 +642,12 @@
 		</div>
 	</div>
 
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="../../assets/javascript/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-<script src="../../assets/javascript/popper.min.js" crossorigin="anonymous"></script>
-<script src="../../assets/javascript/bootstrap.min.js" crossorigin="anonymous"></script>
-
-<script>
-    $(document).ready(() => {
-        $(".sr-readMore__btn").on("click", () => {
-            console.log("click!");
-            let elm = $(".sr-product__descriptionCont");
-            if (elm.hasClass("open")) {
-                elm.removeClass("open");
-            } else {
-                elm.addClass("open");
-            }
-        });
-    });
-</script>
+<script src="../assets/javascript/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/popper.min.js" crossorigin="anonymous"></script>
+<script src="../assets/javascript/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <script>
     (function($) {
