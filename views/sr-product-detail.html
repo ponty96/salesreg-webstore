@@ -34,6 +34,9 @@
 				<a href="sr-store.html">
 					<li>Store</li>
 				</a>
+				<a href="sr-about.html">
+					<li>About</li>
+				</a>
 			</ul>
 			<ul class="sr-nav__cart">
 				<li onclick="location.href='views/sr-cart.html';" style="cursor: pointer;">
@@ -81,6 +84,7 @@
 				<li class="sr-sideNav--mobile__li"><a href="../index.html">Home</a></li>
 				<li class="sr-sideNav--mobile__li"><a href="sr-category.html">Category</a></li>
 				<li class="sr-sideNav--mobile__li"><a href="sr-store.html">Store</a></li>
+				<li class="sr-sideNav--mobile__li"><a href="sr-about.html">About</a></li>
 			</ul>
 		</div>
 	</div>
@@ -108,6 +112,81 @@
 						<div class="sr-product__contentMobile">
 							<div class="sr-product__title">
 								<h1 class="sr-product__detail__title">Flying Apple Macbook Pro 2017 15 Inches With Touch Bar</h1>
+							</div>
+
+							<div class="sr-product__quantity">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="sr-product__contentMobile--variant__spacing">
+											<div class="sr-labelled__labelWrapper">
+												<div class="sr-label">
+													<label id="TextField1Label" class="sr-label__text">Product quantity</label>
+												</div>
+											</div>
+											<div class="sr-textField">
+												<input class="sr-textField__input" type="number" value="1">
+												<div class="sr-textField__backDrop"></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="sr-product__contentMobile--variant__spacing">
+											<div class="sr-labelled__labelWrapper">
+												<div class="sr-label">
+													<label id="Select20Label" for="Select20" class="sr-label__text">Date range</label>
+												</div>
+											</div>
+											<div class="sr-select">
+												<select id="Select20" class="sr-select__input" aria-invalid="false">
+													<option value="today">Blue</option>
+													<option value="yesterday">Yellow</option>
+													<option value="lastWeek">Black</option>
+												</select>
+												<div class="sr-select__content" aria-hidden="true">
+													<span class="sr-select__selectedOption">Selected</span>
+													<span class="sr-select__icon">
+														<span class="sr-icon">
+															<svg class="sr-icon__svg" viewBox="0 0 20 20" focusable="false" aria-hidden="true"><path d="M13 8l-3-3-3 3h6zm-.1 4L10 14.9 7.1 12h5.8z" fill-rule="evenodd">
+															</path>
+															</svg>
+														</span>
+													</span>
+												</div>
+												<div class="sr-select__backdrop"></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="sr-product__contentMobile--variant__spacing">
+											<div class="sr-labelled__labelWrapper">
+												<div class="sr-label">
+													<label id="Select20Label" for="Select20" class="sr-label__text">Select size</label>
+												</div>
+											</div>
+											<div class="sr-select">
+												<select id="Select20" class="sr-select__input" aria-invalid="false">
+													<option value="today">M</option>
+													<option value="yesterday">L</option>
+													<option value="lastWeek">XL</option>
+													<option value="lastWeek">XXL</option>
+												</select>
+												<div class="sr-select__content" aria-hidden="true">
+													<span class="sr-select__selectedOption">Selected</span>
+													<span class="sr-select__icon">
+														<span class="sr-icon">
+															<svg class="sr-icon__svg" viewBox="0 0 20 20" focusable="false" aria-hidden="true"><path d="M13 8l-3-3-3 3h6zm-.1 4L10 14.9 7.1 12h5.8z" fill-rule="evenodd">
+															</path>
+															</svg>
+														</span>
+													</span>
+												</div>
+												<div class="sr-select__backdrop"></div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 
 							<div class="sr-product__meta">
@@ -300,15 +379,76 @@
 							</div>
 
 							<div class="sr-product__quantity">
-								<div class="">
-									<div class="sr-labelled__labelWrapper">
-										<div class="sr-label">
-											<label id="TextField1Label" class="sr-label__text">Product weight</label>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<div class="sr-labelled__labelWrapper">
+												<div class="sr-label">
+													<label id="TextField1Label" class="sr-label__text">Quantity</label>
+												</div>
+											</div>
+											<div class="sr-textField">
+												<input class="sr-textField__input" type="number" value="1">
+												<div class="sr-textField__backDrop"></div>
+											</div>
 										</div>
 									</div>
-									<div class="sr-textField">
-										<input class="sr-textField__input" type="number" value="1">
-										<div class="sr-textField__backDrop"></div>
+
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<div class="sr-labelled__labelWrapper">
+												<div class="sr-label">
+													<label id="Select20Label" for="Select20" class="sr-label__text">Color</label>
+												</div>
+											</div>
+											<div class="sr-select">
+												<select id="Select20" class="sr-select__input" aria-invalid="false">
+													<option value="today">Blue</option>
+													<option value="yesterday">Yellow</option>
+													<option value="lastWeek">Black</option>
+												</select>
+												<div class="sr-select__content" aria-hidden="true">
+													<span class="sr-select__selectedOption">Selected</span>
+													<span class="sr-select__icon">
+														<span class="sr-icon">
+															<svg class="sr-icon__svg" viewBox="0 0 20 20" focusable="false" aria-hidden="true"><path d="M13 8l-3-3-3 3h6zm-.1 4L10 14.9 7.1 12h5.8z" fill-rule="evenodd">
+															</path>
+															</svg>
+														</span>
+													</span>
+												</div>
+												<div class="sr-select__backdrop"></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<div class="sr-labelled__labelWrapper">
+												<div class="sr-label">
+													<label id="Select20Label" for="Select20" class="sr-label__text">Size</label>
+												</div>
+											</div>
+											<div class="sr-select">
+												<select id="Select20" class="sr-select__input" aria-invalid="false">
+													<option value="today">M</option>
+													<option value="yesterday">L</option>
+													<option value="lastWeek">XL</option>
+													<option value="lastWeek">XXL</option>
+												</select>
+												<div class="sr-select__content" aria-hidden="true">
+													<span class="sr-select__selectedOption">Selected</span>
+													<span class="sr-select__icon">
+														<span class="sr-icon">
+															<svg class="sr-icon__svg" viewBox="0 0 20 20" focusable="false" aria-hidden="true"><path d="M13 8l-3-3-3 3h6zm-.1 4L10 14.9 7.1 12h5.8z" fill-rule="evenodd">
+															</path>
+															</svg>
+														</span>
+													</span>
+												</div>
+												<div class="sr-select__backdrop"></div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -525,7 +665,7 @@
 
 </main>
 
-<footer class="sr-footer" style="margin-bottom: 4rem">
+<footer class="sr-footer">
 	<div class="container">
 
 		<div class="sr-footer__company">

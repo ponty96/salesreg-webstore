@@ -184,6 +184,101 @@ input[type=text], [type=email], [type=password], textarea {
   }
 }
 
+.sr-select {
+  position: relative;
+  .sr-select__input {
+    @include media-breakpoint-up(md) {
+      font-size: 1.03em;
+    }
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-transform: none;
+    letter-spacing: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: .001;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .sr-select__content {
+    @include media-breakpoint-up(md) {
+      font-size: 1.03em;
+    }
+    font-size: 1.2em;
+    font-weight: 400;
+    //line-height: 2.4rem;
+    text-transform: none;
+    letter-spacing: normal;
+    position: relative;
+    z-index: 20;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    //min-height: 3.6rem;
+    padding: .5rem .8rem .5rem 1.2rem;
+    .sr-select__selectedOption {
+      -ms-flex: 1 1 0%;
+      flex: 1 1 0%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .sr-select__icon {
+      fill: #637381;
+      .sr-icon {
+        display: block;
+        height: 2rem;
+        width: 2rem;
+        max-height: 100%;
+        max-width: 100%;
+        margin: auto;
+        .sr-icon__svg {
+          position: relative;
+          z-index: 2;
+          display: block;
+          width: 100%;
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+  .sr-select__backdrop {
+    background-color: #c4cdd5;
+    border: .1rem solid transparent;
+    box-shadow: 0 0 0 1px transparent, 0 1px 0 0 rgba(22,29,37,.05);
+    border-radius: 3px;
+    transition-property: box-shadow,background-color;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.64,0,.35,1);
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+      background: linear-gradient(180deg,#fff,#f9fafb);
+      border-radius: 2px;
+    }
+  }
+}
+
 .sr-lebelled__helpText {
   @include media-breakpoint-up(md) {
     font-size: 1em;
@@ -433,12 +528,12 @@ input[type=text], [type=email], [type=password], textarea {
 // Sr-Hero Banner Home
 .sr-hero__mainBg {
   @include media-breakpoint-up(md) {
-    background-position: right 0;
+    background-position: center;
   }
 
   @include media-breakpoint-up(sm) {
     background-size: auto 720px;
-    background-position: 47% 0;
+    background-position: center;
     .sr-valign__middle {
       padding-top: 0;
     }
@@ -447,7 +542,7 @@ input[type=text], [type=email], [type=password], textarea {
   color: rgb(60, 63, 64);
   background-color: rgb(227, 227, 227);
   background-size: 540px;
-  background-position: right top;
+  background-position: center;
   background-repeat: no-repeat;
   .sr-valign__middle {
     padding-top: 250px;
@@ -516,12 +611,12 @@ input[type=text], [type=email], [type=password], textarea {
 // Start Sr-Hero Banner Store
 .sr-hero__mainBg__store {
   @include media-breakpoint-up(md) {
-    background-position: right 0;
+    background-position: center;
   }
 
   @include media-breakpoint-up(sm) {
     background-size: auto 720px;
-    background-position: 47% 0;
+    background-position: center;
     .sr-valign__middle {
       padding-top: 0;
     }
@@ -530,11 +625,46 @@ input[type=text], [type=email], [type=password], textarea {
   color: rgb(60, 63, 64);
   background-color: rgb(32, 32, 32);
   background-size: 540px;
-  background-position: right top;
+  background-position: center;
   background-repeat: no-repeat;
   .sr-valign__middle {
     padding-top: 250px;
   }
+}
+
+// Start Sr-About Banner
+.sr-hero__mainBg__about {
+  @include media-breakpoint-up(md) {
+    background-position: center;
+  }
+
+  @include media-breakpoint-up(sm) {
+    background-size: auto 720px;
+    background-position: center;
+    .sr-valign__middle {
+      padding-top: 0;
+    }
+  }
+  background-image: url(../images/Indigo0096.jpg );
+  color: rgb(60, 63, 64);
+  background-color: rgb(32, 32, 32);
+  background-size: 540px;
+  background-position: center;
+  background-repeat: no-repeat;
+  .sr-valign__middle {
+    padding-top: 250px;
+  }
+}
+
+// Start Sr-About Banner size
+.sr-hero__split__about {
+  @include media-breakpoint-up(sm) {
+    min-height: 35rem;
+  }
+  height: auto;
+  min-height: 20rem;
+  background-size: cover;
+  position: relative;
 }
 
 .sr-hero__split__store {
@@ -964,7 +1094,7 @@ input[type=text], [type=email], [type=password], textarea {
       display: none;
     }
     position: relative;
-    max-width: 30rem;
+    //max-width: 30rem;
     margin-top: 3rem;
     .sr-product__title {
       position: relative;
@@ -975,6 +1105,12 @@ input[type=text], [type=email], [type=password], textarea {
         color: rgb(60, 63, 64);
         line-height: 1.6em;
       }
+    }
+    .sr-product__contentMobile--variant__spacing {
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 1rem;
+      }
+      margin-bottom: 2rem;
     }
 
     .sr-product__rating {
@@ -1908,6 +2044,10 @@ input[type=text], [type=email], [type=password], textarea {
       }
     }
   }
+}
+
+.sr-about__name {
+  padding: 5rem 0 0;
 }
 
 a {
