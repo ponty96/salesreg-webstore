@@ -99,37 +99,114 @@
 
 						<div class="sr-checkout__contentMain">
 							<form class="sr-checkout__formContent">
-								<div class="sr-checkout__customerInfo d-none">
-									<div class="sr-formGroup">
-										<div class="sr-labelled__labelWrapper">
-											<div class="sr-label"><label id="1" for="TextField1" class="sr-label__text">Email address</label></div>
-										</div>
-										<div class="sr-textField"><input id="TextField1" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
-											<div class="sr-textField__backDrop"></div>
-										</div>
-										<div class="sr-lebelled__helpText" id="TextField1HelpText">We will send the purchase receipt to this address.</div>
-									</div>
+								<div class="sr-checkout__customerInfo">
 
 									<div class="sr-formGroup">
-										<div class="sr-labelled__labelWrapper">
-											<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">Password</label></div>
-										</div>
-										<div class="sr-textField"><input id="TextField2" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
-											<div class="sr-textField__backDrop"></div>
+										<div class="sr-button__icon">
+											<button onclick="location.href='sr-checkout.html'"><span class="font-weight-bold mr-4" style="font-size: 1.4em">f</span><span>Login with facebook</span></button>
 										</div>
 									</div>
 
-									<div class="sr-formGroup">
-										<button class="sr-button">Login & continue</button>
+									<hr />
+
+									<div class="row">
+										<div class="col-12">
+											<div class="my-2">
+												<h4 class="mb-4">or enter details</h4>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="sr-formGroup">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="221" for="TextField221" class="sr-label__text">First name</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField221" placeholder="Segun" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-lg-6">
+											<div class="sr-formGroup">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="2211" for="TextField2211" class="sr-label__text">Last name</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField2211" placeholder="Oroyo" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-12">
+											<div class="sr-formGroup">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="01" for="TextField01" class="sr-label__text">Address</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField01" placeholder="Adekunle Amaka" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-lg-4">
+											<div class="sr-formGroup">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="011" for="TextField011" class="sr-label__text">City</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField011" placeholder="Gbagada" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-lg-4">
+											<div class="sr-formGroup">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label"><label id="0111" for="TextField0111" class="sr-label__text">State</label></div>
+												</div>
+												<div class="sr-textField"><input id="TextField0111" placeholder="Lagos" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+													<div class="sr-textField__backDrop"></div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-lg-4">
+											<div class="mb-3">
+												<div class="sr-labelled__labelWrapper">
+													<div class="sr-label">
+														<label id="Select20Label" for="Select20" class="sr-label__text">Country</label>
+													</div>
+												</div>
+												<div class="sr-select">
+													<select id="Select20" class="sr-select__input" aria-invalid="false">
+														<option>Afghanistan</option>
+														<option>Algeria</option>
+														<option>Nigeria</option>
+													</select>
+													<div class="sr-select__content" aria-hidden="true">
+														<span class="sr-select__selectedOption">Choose</span>
+														<span class="sr-select__icon">
+															<span class="sr-icon">
+																<svg class="sr-icon__svg" viewBox="0 0 20 20" focusable="false" aria-hidden="true"><path d="M13 8l-3-3-3 3h6zm-.1 4L10 14.9 7.1 12h5.8z" fill-rule="evenodd">
+																</path>
+																</svg>
+															</span>
+														</span>
+													</div>
+													<div class="sr-select__backdrop"></div>
+												</div>
+											</div>
+										</div>
 									</div>
+
 								</div>
 
-								<div class="sr-checkout__paymentMethod">
+								<div class="sr-checkout__paymentMethod d-none">
 									<div class="sr-formGroup">
 										<div class="sr-labelled__labelWrapper">
-											<div class="sr-label"><label id="1" for="TextField1" class="sr-label__text">Card number</label></div>
+											<div class="sr-label"><label id="11" for="TextField11" class="sr-label__text">Card number</label></div>
 										</div>
-										<div class="sr-textField"><input id="TextField1" placeholder="**** **** **** ****" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+										<div class="sr-textField"><input id="TextField11" placeholder="**** **** **** ****" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
 											<div class="sr-textField__backDrop"></div>
 										</div>
 									</div>
@@ -138,25 +215,25 @@
 										<div class="row">
 											<div class="col-lg-6">
 												<div class="sr-labelled__labelWrapper">
-													<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">Card Holder</label></div>
+													<div class="sr-label"><label id="22" for="TextField22" class="sr-label__text">Card Holder</label></div>
 												</div>
-												<div class="sr-textField"><input id="TextField2" placeholder="Adekunle Amaka" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+												<div class="sr-textField"><input id="TextField22" placeholder="Adekunle Amaka" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
 													<div class="sr-textField__backDrop"></div>
 												</div>
 											</div>
 											<div class="col-lg-3">
 												<div class="sr-labelled__labelWrapper">
-													<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">Exp. Date</label></div>
+													<div class="sr-label"><label id="23" for="TextField22" class="sr-label__text">Exp. Date</label></div>
 												</div>
-												<div class="sr-textField"><input id="TextField2" placeholder="mm / yr" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+												<div class="sr-textField"><input id="TextField23" placeholder="mm / yr" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
 													<div class="sr-textField__backDrop"></div>
 												</div>
 											</div>
 											<div class="col-lg-3">
 												<div class="sr-labelled__labelWrapper">
-													<div class="sr-label"><label id="2" for="TextField2" class="sr-label__text">CVV</label></div>
+													<div class="sr-label"><label id="24" for="TextField22" class="sr-label__text">CVV</label></div>
 												</div>
-												<div class="sr-textField"><input id="TextField2" placeholder="***" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
+												<div class="sr-textField"><input id="TextField24" placeholder="***" class="sr-textField__input" aria-label="Store name" aria-labelledby="TextField13Label" aria-invalid="false" value="">
 													<div class="sr-textField__backDrop"></div>
 												</div>
 											</div>

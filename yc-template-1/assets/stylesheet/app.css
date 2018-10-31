@@ -7458,6 +7458,7 @@ input[type=text], [type=email], [type=password], textarea {
   display: inline;
   line-height: 17px;
   border-width: 1px;
+  cursor: pointer;
   border-style: solid;
   border-color: #366ad3;
   border-image: initial;
@@ -7465,11 +7466,10 @@ input[type=text], [type=email], [type=password], textarea {
   text-decoration: none;
   transition: all 0.2s ease-in-out 0s; }
   .sr-button:hover {
-    background-color: white;
-    color: #366ad3;
+    background-color: #2858b8;
     border-width: 1px;
     border-style: solid;
-    border-color: white;
+    border-color: #2c60c9;
     border-image: initial;
     text-decoration: none; }
 

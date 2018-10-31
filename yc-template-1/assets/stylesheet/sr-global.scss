@@ -307,6 +307,7 @@ input[type=text], [type=email], [type=password], textarea {
   line-height: 17px;
   //border-radius: 10rem;
   border-width: 1px;
+  cursor: pointer;
   border-style: solid;
   border-color: $primary;
   border-image: initial;
@@ -314,11 +315,10 @@ input[type=text], [type=email], [type=password], textarea {
   text-decoration: none;
   transition: all 0.2s ease-in-out 0s;
   &:hover {
-    background-color: rgb(255, 255, 255);
-    color: $primary;
+    background-color: darken($primary, 8);
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: darken($primary, 4);
     border-image: initial;
     text-decoration: none;
   }
