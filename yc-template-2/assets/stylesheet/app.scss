@@ -1,0 +1,14 @@
+// core styles
+@import "scss/bootstrap";
+@import "yc-settings";
+
+// major
+@import "sr-mixin";
+@import "sr-global";
+
+// miscellaneous
+@import "yc-sidenav";
+
+//pages
+
+@import "home";

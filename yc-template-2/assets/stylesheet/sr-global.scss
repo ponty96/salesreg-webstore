@@ -1,0 +1,112 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $yc-font;
+}
+
+.yc-main__wrapper {
+  @include media-breakpoint-up(md) {
+    margin-left: 15rem;
+  }
+  position: relative;
+  transition: padding 0.15s;
+  margin-left: 0;
+  top: 2.8rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background: $white;
+  min-height: calc(100vh - 3rem);
+}
+
+.yc-main__header {
+  @include media-breakpoint-up(md) {
+    margin-left: 15rem;
+  }
+  display: block;
+  //width: 100%;
+  padding: .5rem 2rem;
+  margin-bottom: 0;
+  margin-left: 0;
+  //min-height: 3rem;
+  background-color: $white;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #707070;
+  border-radius: 0;
+  transition: ease all 0.3s;
+  z-index: 5;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.14);
+  .yc-main__header-table {
+    min-height: 2.5rem;
+  }
+}
+
+
+// search
+
+.yc-search {
+  input {
+    border: 1px solid #ccc;
+    font-size: 1em;
+    height: 2.4rem;
+    padding: 1rem;
+    position: absolute;
+    width: 20%;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    text-align: center;
+    &:focus {
+      outline: none;
+    }
+    &.btn-search {
+      border: none;
+      height: 1.7rem;
+      font-size: 12px;
+      padding: 4px;
+      position: absolute;
+      width: 1.7rem;
+    }
+  }
+
+  .yc-search-wrapper {
+    position: relative;
+    &.one {
+      input {
+        border-radius: 15px;
+        right: 0;
+        transition: all .3s ease-in-out;
+        width: 20%;
+        &:focus {
+          width: 80%;
+          ~ button {
+            &.btn-search {
+              background: $black;
+              color: $white;
+            }
+          }
+        }
+      }
+      button {
+        transition: all .3s ease-in-out;
+        &.btn-search {
+          background: #ccc;
+          border-radius: 35%;
+          height: 1.8rem;
+          right: 0.3rem;
+          top: 0.29rem;
+          transition: all .3s ease-in-out;
+          width: 1.8rem;
+        }
+      }
+    }
+  }
+}
+$tl: 0.6s; // transition length

@@ -7466,6 +7466,7 @@ input[type=text], [type=email], [type=password], textarea {
   text-decoration: none;
   transition: all 0.2s ease-in-out 0s; }
   .sr-button:hover {
+    color: #fff;
     background-color: #2858b8;
     border-width: 1px;
     border-style: solid;
@@ -7513,7 +7514,7 @@ input[type=text], [type=email], [type=password], textarea {
   font-weight: 600; }
 
 .sr-text__primary {
-  color: #979CA9; }
+  color: #595e6b; }
 
 .srRating {
   display: flex;
@@ -7647,7 +7648,6 @@ input[type=text], [type=email], [type=password], textarea {
       font-weight: 600; }
 
 .sr-hero__mainBg {
-  background-image: url(../images/Indigo0140.jpg);
   color: #3c3f40;
   background-color: #e3e3e3;
   background-size: 540px;
@@ -7957,19 +7957,6 @@ input[type=text], [type=email], [type=password], textarea {
             color: #fff; }
           .sr-product__detail .sr-product__contentMain .sr-product__review .sr-product__reviewMore > button span {
             font-weight: 600; }
-          .sr-product__detail .sr-product__contentMain .sr-product__review .sr-product__reviewMore > button:last-of-type {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #366ad3;
-            color: #fff;
-            padding: .7rem 1rem;
-            width: 100%;
-            max-width: 15rem;
-            border: .1rem solid transparent;
-            margin-left: 1rem; }
-            .sr-product__detail .sr-product__contentMain .sr-product__review .sr-product__reviewMore > button:last-of-type:hover {
-              background-color: #2654b0; }
   .sr-product__detail .sr-product__content {
     position: relative; }
     @media (max-width: 991.98px) {
@@ -8837,7 +8824,7 @@ input[type=text], [type=email], [type=password], textarea {
                 margin-bottom: 5px;
                 padding: 0 15px;
                 font-size: 1.7em;
-                color: #3668d3;
+                color: #366ad3;
                 font-weight: 600;
                 text-align: left;
                 line-height: 18px;
@@ -9034,7 +9021,7 @@ input[type=text], [type=email], [type=password], textarea {
                 margin-bottom: 5px;
                 padding: 0 15px;
                 font-size: 1.7em;
-                color: #3668d3;
+                color: #366ad3;
                 font-weight: 600;
                 text-align: left;
                 line-height: 18px;

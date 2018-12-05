@@ -315,6 +315,7 @@ input[type=text], [type=email], [type=password], textarea {
   text-decoration: none;
   transition: all 0.2s ease-in-out 0s;
   &:hover {
+    color: $white;
     background-color: darken($primary, 8);
     border-width: 1px;
     border-style: solid;
@@ -325,7 +326,7 @@ input[type=text], [type=email], [type=password], textarea {
 }
 
 .sr-button__outline {
-  color: #366ad3;
+  color: $primary;
   box-shadow: none;
   background: transparent;
 }
@@ -370,7 +371,7 @@ input[type=text], [type=email], [type=password], textarea {
 }
 
 .sr-text__primary {
-  color: #979CA9;
+  color: #595e6b;
 }
 
 // Sr-rating
@@ -538,7 +539,6 @@ input[type=text], [type=email], [type=password], textarea {
       padding-top: 0;
     }
   }
-  background-image: url(../images/Indigo0140.jpg );
   color: rgb(60, 63, 64);
   background-color: rgb(227, 227, 227);
   background-size: 540px;
@@ -901,21 +901,21 @@ input[type=text], [type=email], [type=password], textarea {
           span {
             font-weight: 600;
           }
-          &:last-of-type {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: $primary;
-            color: $white;
-            padding: .7rem 1rem;
-            width: 100%;
-            max-width: 15rem;
-            border: .1rem solid transparent;
-            margin-left: 1rem;
-            &:hover {
-              background-color: darken($primary, 10);
-            }
-          }
+          //&:last-of-type {
+          //  display: flex;
+          //  justify-content: space-between;
+          //  align-items: center;
+          //  background-color: $primary;
+          //  color: $white;
+          //  padding: .7rem 1rem;
+          //  width: 100%;
+          //  max-width: 15rem;
+          //  border: .1rem solid transparent;
+          //  margin-left: 1rem;
+          //  &:hover {
+          //    background-color: darken($primary, 10);
+          //  }
+          //}
         }
       }
     }
@@ -1852,7 +1852,7 @@ input[type=text], [type=email], [type=password], textarea {
 
 .sr-card__default__image {
   border-radius: 2px 2px 0 0;
-  background-color: #366ad3;
+  background-color: $primary;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
