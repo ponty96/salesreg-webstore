@@ -807,6 +807,51 @@ input[type=text], [type=email], [type=password], textarea {
       }
     }
 
+    .sr-product__imagesWrapper {
+      margin-top: 1.5rem;
+      position: relative;
+      .sr-product__imagesWrapperScroll {
+        display: flex;
+        scroll-snap-type: x mandatory; /* Chrome Canary */
+        scroll-snap-type: mandatory; /* Firefox */
+        -ms-scroll-snap-type: mandatory; /* IE/Edge */
+        -webkit-scroll-snap-type: mandatory; /* Safari */
+        -webkit-scroll-snap-destination: 0% 0%;
+        -webkit-overflow-scrolling: touch; /* important for iOS */
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        .sr-product__imagesItem {
+          background-color: #6c757d;
+          border-radius: .1rem;
+          margin-right: 1rem;
+          scroll-snap-align: start;
+          text-align: center;
+          position: relative;
+          padding: 0;
+          cursor: pointer;
+          border: 0;
+          -webkit-appearance: none;
+          .sr-product__imagesItemImage {
+            position: inherit;
+            width: 6rem;
+            height: 4rem;
+            max-height: 100%;
+            overflow: hidden;
+            background-size: cover;
+            img {
+              background-position: center;
+              background-repeat: no-repeat;
+              height: 4.1rem;
+              width: 6.5rem;
+            }
+          }
+        }
+      }
+    }
+
+
     .sr-product__description {
       padding: 6rem 0 0;
       position: relative;
