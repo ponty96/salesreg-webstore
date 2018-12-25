@@ -84,9 +84,9 @@ input[type=text], [type=email], [type=password], textarea {
 
 .sr-labelled__labelWrapper {
   @include media-breakpoint-down(md) {
-    margin-top: 2rem;
+    margin-top: .2rem;
   }
-  margin-bottom: .4rem;
+  margin-bottom: .1rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -103,7 +103,7 @@ input[type=text], [type=email], [type=password], textarea {
       }
       font-size: 1.2em;
       font-weight: 400;
-      line-height: 2rem;
+      line-height: 1.6rem;
       margin-bottom: 0;
       text-transform: none;
       letter-spacing: normal;
@@ -144,18 +144,16 @@ input[type=text], [type=email], [type=password], textarea {
     position: relative;
     z-index: 1;
     display: block;
-    -ms-flex: 1 1 0%;
-    flex: 1 1 0%;
+    -ms-flex: 1 1 0;
+    flex: 1 1 0;
     width: 100%;
     min-width: 0;
-    min-height: 2.6rem;
+    min-height: 1.3rem;
     margin: 0;
-    padding: 0.2rem 1.2rem;
+    padding: 0 0.5rem;
     background: none;
     border: .1rem solid transparent;
     font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -224,10 +222,10 @@ input[type=text], [type=email], [type=password], textarea {
     align-items: center;
     width: 100%;
     //min-height: 3.6rem;
-    padding: .5rem .8rem .5rem 1.2rem;
+    padding: .3rem .7rem;
     .sr-select__selectedOption {
-      -ms-flex: 1 1 0%;
-      flex: 1 1 0%;
+      -ms-flex: 1 1 0;
+      flex: 1 1 0;
       white-space: nowrap;
       overflow: hidden;
     }

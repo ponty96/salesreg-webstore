@@ -2,152 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b49360-c962-462e-832f-8b0319eaf578" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/yc-template-1/views/sr-product-review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/fonts/font-awesome.5.1/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/000mono.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/Indigo0096.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/Indigo0140.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/Model-with-bag.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/cross-board.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/eye-glass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/item-dress-female.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/svg/check-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/svg/lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/svg/shield.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/images/svg/svg-facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/javascript/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/javascript/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/javascript/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/scss/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/sr-global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/sr-mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/yc-settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/assets/stylesheet/yc-sidenav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yc-template-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc-template-1.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-mixin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc-template-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-checkout-complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-checkout-complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-product-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-store.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-store.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -167,16 +28,15 @@
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6583748">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="451">
-                  <caret line="452" column="10" lean-forward="true" selection-start-line="452" selection-start-column="10" selection-end-line="452" selection-end-column="10" />
+                <state relative-caret-position="103">
+                  <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
@@ -185,7 +45,6 @@
                     <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#pre#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#pre#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -237,20 +96,39 @@
           <file leaf-file-name="sr-cart.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-cart.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+                <state relative-caret-position="615">
+                  <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sr-product-review.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sr-product-review.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-product-review.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="377">
-                  <caret line="117" column="121" selection-start-line="117" selection-start-column="121" selection-end-line="117" selection-end-column="121" />
+                <state relative-caret-position="1890">
+                  <caret line="166" column="19" lean-forward="true" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
                   <folding>
-                    <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#5651#5658#1" expanded="true" />
+                    <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sr-product-detail.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-product-detail.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="149">
+                  <caret line="389" column="45" lean-forward="true" selection-start-line="389" selection-start-column="45" selection-end-line="389" selection-end-column="45" />
+                  <folding>
+                    <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -260,75 +138,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="sr-global.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="sr-global.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13530">
-                  <caret line="902" column="11" selection-start-line="902" selection-start-column="11" selection-end-line="902" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sr-store.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-store.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="248">
-                  <caret line="681" selection-start-line="681" selection-end-line="681" />
-                  <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#pre#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#12;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#13;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#14;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#15;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#mask#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#1;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#1;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#2;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#2;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#3;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#3;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#4;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#4;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="80">
+                  <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -414,15 +228,15 @@
         <option value="$PROJECT_DIR$/yc-template-2/index.html" />
         <option value="$PROJECT_DIR$/yc-template-2/assets/stylesheet/sr-global.scss" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-about.html" />
-        <option value="$PROJECT_DIR$/yc-template-1/index.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-cart.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-category.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-checkout.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-checkout-complete.html" />
-        <option value="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" />
-        <option value="$PROJECT_DIR$/yc-template-1/views/sr-product-detail.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-store.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-product-review.html" />
+        <option value="$PROJECT_DIR$/yc-template-1/index.html" />
+        <option value="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" />
+        <option value="$PROJECT_DIR$/yc-template-1/views/sr-product-detail.html" />
       </list>
     </option>
   </component>
@@ -459,19 +273,6 @@
               <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
               <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
-              <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
-              <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -483,7 +284,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shezvar1/Documents/LidStack/Personal/Product/yipcart/yipcart-webstore/yc-template-1/assets/stylesheet/sr-global.scss" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shezvar1/Documents/LidStack/Personal/Product/yipcart/yipcart-webstore/yc-template-2/assets/stylesheet/yc-settings.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -556,12 +357,15 @@
       <workItem from="1542958734512" duration="4557000" />
       <workItem from="1543317773437" duration="7924000" />
       <workItem from="1543415928342" duration="4814000" />
-      <workItem from="1544004980632" duration="1398000" />
+      <workItem from="1544004980632" duration="2199000" />
+      <workItem from="1544019780286" duration="559000" />
+      <workItem from="1545125186539" duration="670000" />
+      <workItem from="1545642093617" duration="2209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234304000" />
+    <option name="totallyTimeSpent" value="238543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -574,7 +378,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="RNConsole" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -763,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-2/assets/stylesheet/yc-settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/views/test-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -805,95 +602,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-checkout-complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-product-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="411" column="24" selection-start-line="411" selection-start-column="24" selection-end-line="411" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13530">
-          <caret line="902" column="11" selection-start-line="902" selection-start-column="11" selection-end-line="902" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="503">
           <caret line="681" selection-start-line="681" selection-end-line="681" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#pre#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#12;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#13;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#14;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#15;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#mask#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#1;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#2;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#2;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#3;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#3;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#4;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#a#4;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-checkout-complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="152" column="4902" lean-forward="true" selection-start-line="152" selection-start-column="4902" selection-end-line="152" selection-end-column="4902" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="452" column="10" lean-forward="true" selection-start-line="452" selection-start-column="10" selection-end-line="452" selection-end-column="10" />
+        <state relative-caret-position="103">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
@@ -902,7 +636,6 @@
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#pre#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#pre#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -950,20 +683,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-cart.html">
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-product-review.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="1890">
+          <caret line="166" column="19" lean-forward="true" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-product-review.html">
+    <entry file="file://$PROJECT_DIR$/yc-template-2/assets/stylesheet/yc-settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="117" column="121" selection-start-line="117" selection-start-column="121" selection-end-line="117" selection-end-column="121" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-product-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="389" column="45" lean-forward="true" selection-start-line="389" selection-start-column="45" selection-end-line="389" selection-end-column="45" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5651#5658#1" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
