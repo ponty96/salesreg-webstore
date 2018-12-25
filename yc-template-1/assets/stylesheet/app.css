@@ -7714,6 +7714,10 @@ input[type=text], [type=email], [type=password], textarea {
   -webkit-box-pack: center;
   justify-content: center; }
 
+.sr-hero__contentBg {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem; }
+
 .sr-hero__mainBg__store {
   background-image: url(../images/Indigo0096.jpg);
   color: #3c3f40;

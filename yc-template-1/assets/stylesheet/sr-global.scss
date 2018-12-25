@@ -603,6 +603,11 @@ input[type=text], [type=email], [type=password], textarea {
   -webkit-box-pack: center;
   justify-content: center;
 }
+
+.sr-hero__contentBg {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+}
 // End Sr Hero Banner Home
 
 
