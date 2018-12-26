@@ -752,110 +752,185 @@ input[type=text], [type=email], [type=password], textarea {
 
   .sr-product__contentMain {
     position: relative;
+
     .sr-product__imageDescMain {
       @include media-breakpoint-up(lg) {
         margin-top: 2rem;
       }
     }
-    .sr-product__imgDesc {
-      @include media-breakpoint-down(md){
-        height: 20rem;
+
+    .carousel-indicators {
+      @include media-breakpoint-up(md) {
+        display: none;
       }
-      background-color: #EBEBEB;
-      //box-shadow: 0 2px 20px 0 rgba(0,0,0,0.05);
-      transition: box-shadow .35s ease-out;
-      position: relative;
-      overflow: hidden;
-      height: 35rem;
-      &:before {
-        content: "";
-        padding: 15rem 0 0;
-        display: inline-block;
-      }
-      .srFeedLink2 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        text-decoration: none;
-        display: block;
-        height: auto;
-        color: #fff;
-        overflow: hidden;
-        .srPostPhoto2 {
-          background-repeat: no-repeat;
-          background-position: center center;
-          background-size: 30px;
-          overflow: hidden;
-          display: block;
-          position: relative;
-          height: 100%;
-          &:before {
-            content: "";
-            position: absolute;
-            display: block;
-            width: 100%;
-            bottom: 0;
-            top: 0;
-            opacity: 1;
-            z-index: 1;
-          }
-          img {
-            height: 100%;
-            width: 100%;
-            object-position: center;
-            object-fit: cover;
-            border: 0;
-          }
-        }
-      }
+      display: flex;
     }
 
-    .sr-product__imagesWrapper {
-      margin-top: 1.5rem;
-      position: relative;
-      .sr-product__imagesWrapperScroll {
-        display: flex;
-        scroll-snap-type: x mandatory; /* Chrome Canary */
-        scroll-snap-type: mandatory; /* Firefox */
-        -ms-scroll-snap-type: mandatory; /* IE/Edge */
-        -webkit-scroll-snap-type: mandatory; /* Safari */
-        -webkit-scroll-snap-destination: 0% 0%;
-        -webkit-overflow-scrolling: touch; /* important for iOS */
-        overflow-x: scroll;
-        &::-webkit-scrollbar {
-          display: none;
-        }
-        .sr-product__imagesItem {
-          background-color: #6c757d;
-          border-radius: .1rem;
-          margin-right: 1rem;
-          scroll-snap-align: start;
-          text-align: center;
-          position: relative;
-          padding: 0;
-          cursor: pointer;
-          border: 0;
-          -webkit-appearance: none;
-          .sr-product__imagesItemImage {
-            position: inherit;
-            width: 6rem;
-            height: 4rem;
-            max-height: 100%;
-            overflow: hidden;
-            background-size: cover;
+    .sr-product__images {
+      @include media-breakpoint-up(md) {
+        display: block;
+      }
+      display: none;
+      position: absolute;
+      top: 0;
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+      li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        .sr-product__imageButton {
+          @include media-breakpoint-up(md) {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            align-items: center;
+            width: 5rem;
+            border: 2px solid #fff;
+            border-radius: 3px;
+            padding: .4rem;
+            margin: 0;
+            position: relative;
+            opacity: .8;
+            zoom: 1;
+            box-sizing: content-box;
+            cursor: pointer;
+            background-color: #fff;
+          }
+          .sr-product__imageSpan {
+            position: relative;
             img {
-              background-position: center;
-              background-repeat: no-repeat;
-              height: 4.1rem;
-              width: 6.5rem;
+              @include media-breakpoint-up(md) {
+                display: block;
+                width: auto;
+                height: 3rem;
+                pointer-events: none;
+              }
+              vertical-align: middle;
+              border: 0;
+            }
+          }
+          .sr-product__imageSpan-opcaity {
+            img {
+              opacity: 1;
             }
           }
         }
       }
+      .active {
+        @include media-breakpoint-up(md) {
+          border: 1px solid $primary;
+          opacity: 1;
+        }
+      }
     }
 
+    .carousel-inner {
+      @include media-breakpoint-up(md){
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 30px;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        height: 27rem;
+        margin-left: 7rem;
+      }
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 30px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      height: 17rem;
+      .sr-carousel__image {
+        @include media-breakpoint-up(md) {
+          padding-top: 7rem;
+          padding-bottom: 7rem;
+          height: 27rem;
+        }
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        height: 18rem;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        color: white;
+      }
+    }
+
+    .sr-carousel__mobileSwitch {
+      @include media-breakpoint-up(md) {
+        display: none;
+      }
+      display: block;
+    }
+
+    .sr-product__imagesWrapper {
+      text-align: center;
+      margin-top: 0.5rem;
+      position: relative;
+      .sr-product__imagesWrapperScroll {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: .57rem;
+        .sr-product__variantButton {
+          @include media-breakpoint-up(md) {
+            display: inline-block;
+            padding: 5px 5px 3px;
+            border-radius: 5px;
+            -webkit-transform-style: preserve-3d;
+          }
+          background-color: transparent;
+          border: 2px solid transparent;
+          border-radius: 4px;
+          cursor: pointer;
+          .sr-product__variantLabel {
+            border: 0;
+            position: relative;
+            display: inline-block;
+            .sr-product__variantSpan {
+              position: relative;
+              cursor: pointer;
+              img {
+                @include media-breakpoint-up(md) {
+                  margin: 0;
+                  width: 71px;
+                  height: 53px;
+                  -ms-interpolation-mode: bicubic;
+                  -webkit-transform-style: preserve-3d;
+                }
+                height: 46px;
+                margin: 5px;
+                width: 63px;
+              }
+            }
+          }
+        }
+        .spvb-active {
+          border-color: $primary;
+        }
+      }
+    }
 
     .sr-product__description {
       padding: 6rem 0 0;
@@ -978,7 +1053,7 @@ input[type=text], [type=email], [type=password], textarea {
     .sr-product__breadcrumb {
       display: flex;
       flex-flow: row wrap;
-      padding: 0 0 1rem;
+      padding: 0 0 .1rem;
       span {
         font-weight: 600;
         &:last-child {
@@ -994,18 +1069,18 @@ input[type=text], [type=email], [type=password], textarea {
 
     .sr-product__title {
       position: relative;
-      padding: 0 0 1rem;
+      padding: 0 0 .1rem;
       .sr-product__detail__title {
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 600;
         color: rgb(60, 63, 64);
-        line-height: 1.6em;
+        line-height: 1.4em;
       }
     }
 
     .sr-product__rating {
       display: block;
-      padding: 0 0 1rem;
+      padding: 0 0 .3rem;
       box-sizing: border-box;
       .srRating {
         display: flex;
@@ -1046,9 +1121,9 @@ input[type=text], [type=email], [type=password], textarea {
 
     .sr-product__price {
       position: relative;
-      padding: 0 0 1rem;
+      padding: .5rem 0;
       .sr-product__price-font {
-        font-size: 2em;
+        font-size: 1.6em;
         font-weight: 400;
       }
     }
