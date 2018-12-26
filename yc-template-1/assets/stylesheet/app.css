@@ -8885,6 +8885,7 @@ input[type=text], [type=email], [type=password], textarea {
             transition-property: bottom, opacity;
             transition-duration: 0.4s;
             -webkit-transition-delay: .08s;
+            transition-delay: .08s;
             height: 100%;
             text-align: left;
             z-index: 1; }
@@ -8903,6 +8904,7 @@ input[type=text], [type=email], [type=password], textarea {
                 transition-property: bottom, opacity;
                 transition-duration: 0.4s;
                 -webkit-transition-delay: 0s;
+                transition-delay: 0s;
                 margin-bottom: .5rem;
                 padding: 0 15px;
                 font-size: 1.7em;
@@ -9083,6 +9085,7 @@ input[type=text], [type=email], [type=password], textarea {
             transition-property: bottom, opacity;
             transition-duration: 0.4s;
             -webkit-transition-delay: .08s;
+            transition-delay: .08s;
             height: 100%;
             text-align: left;
             z-index: 1; }
@@ -9101,6 +9104,7 @@ input[type=text], [type=email], [type=password], textarea {
                 transition-property: bottom, opacity;
                 transition-duration: 0.4s;
                 -webkit-transition-delay: 0s;
+                transition-delay: 0s;
                 margin-bottom: .5rem;
                 padding: 0 15px;
                 font-size: 1.7em;

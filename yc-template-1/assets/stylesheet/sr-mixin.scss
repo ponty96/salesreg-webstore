@@ -248,6 +248,7 @@
           transition-property: bottom, opacity;
           transition-duration: 0.4s;
           -webkit-transition-delay: .08s;
+          transition-delay: .08s;
           height: 100%;
           text-align: left;
           z-index: 1;
@@ -269,6 +270,7 @@
               transition-property: bottom, opacity;
               transition-duration: 0.4s;
               -webkit-transition-delay: 0s;
+              transition-delay: 0s;
               margin-bottom: .5rem;
               padding: 0 15px;
               font-size: 1.7em;
@@ -524,6 +526,7 @@
           transition-property: bottom, opacity;
           transition-duration: 0.4s;
           -webkit-transition-delay: .08s;
+          transition-delay: .08s;
           height: 60px;
           text-align: left;
           z-index: 1;
@@ -542,6 +545,7 @@
               transition-property: bottom, opacity;
               transition-duration: 0.4s;
               -webkit-transition-delay: 0s;
+              transition-delay: 0s;
               margin-bottom: 5px;
               padding: 0 15px;
               font-size: 14px;
