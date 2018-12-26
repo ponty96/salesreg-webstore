@@ -899,6 +899,7 @@ input[type=text], [type=email], [type=password], textarea {
             padding: 5px 5px 3px;
             border-radius: 5px;
             -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
           }
           background-color: transparent;
           border: 2px solid transparent;
@@ -918,6 +919,7 @@ input[type=text], [type=email], [type=password], textarea {
                   height: 53px;
                   -ms-interpolation-mode: bicubic;
                   -webkit-transform-style: preserve-3d;
+                  transform-style: preserve-3d;
                 }
                 height: 46px;
                 margin: 5px;
@@ -2107,6 +2109,7 @@ input[type=text], [type=email], [type=password], textarea {
           color: #999;
           transition-property: bottom, opacity;
           transition-duration: 0.4s;
+          transition-delay: .08s;
           -webkit-transition-delay: .08s;
           height: 60px;
           text-align: left;
@@ -2125,6 +2128,7 @@ input[type=text], [type=email], [type=password], textarea {
               position: relative;
               transition-property: bottom, opacity;
               transition-duration: 0.4s;
+              transition-delay: 0s;
               -webkit-transition-delay: 0s;
               margin-bottom: 5px;
               padding: 0 15px;
@@ -2137,6 +2141,7 @@ input[type=text], [type=email], [type=password], textarea {
               letter-spacing: .5px;
               display: -webkit-box;
               -webkit-line-clamp: 2;
+              -moz-box-orient: vertical;
               -webkit-box-orient: vertical;
             }
             span {
