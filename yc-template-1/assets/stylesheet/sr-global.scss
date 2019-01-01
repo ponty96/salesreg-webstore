@@ -329,12 +329,6 @@ input[type=text], [type=email], [type=password], textarea {
   background: transparent;
 }
 
-.sr-nav__cart__cart {
-  background: transparent;
-  border: 0;
-  outline: 0 !important;
-}
-
 .sr-button__icon {
   position: relative;
   display: flex;
@@ -480,6 +474,14 @@ input[type=text], [type=email], [type=password], textarea {
   transition: opacity 0.22s ease-in-out;
   .fa {
     color: rgb(60, 63, 64);
+  }
+  .sr--nav__search {
+    margin-right: 1rem;
+  }
+  .sr-nav__cart__cart {
+    background: transparent;
+    border: 0;
+    outline: 0 !important;
   }
 }
 
