@@ -1234,10 +1234,12 @@ input[type=text], [type=email], [type=password], textarea {
       }
     }
     .sr-product__contentMobile--variant__spacing {
-      @include media-breakpoint-down(sm) {
-        margin-bottom: 1rem;
+      @include media-breakpoint-up(md) {
+        display: none;
+        margin-bottom: 2rem;
       }
-      margin-bottom: 2rem;
+      display: block;
+      margin-bottom: 1rem;
     }
 
     .sr-product__rating {

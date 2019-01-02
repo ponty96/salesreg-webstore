@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11b49360-c962-462e-832f-8b0319eaf578" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-loader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc-template-1/views/sr-store.html" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/views/sr-store.html" afterDir="false" />
-    </list>
+    <list default="true" id="11b49360-c962-462e-832f-8b0319eaf578" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -104,8 +96,8 @@
           <file leaf-file-name="sr-store.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-store.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="297" column="28" lean-forward="true" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+                <state relative-caret-position="234">
+                  <caret line="287" column="24" lean-forward="true" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
                   <folding>
                     <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -152,13 +144,22 @@
           <file leaf-file-name="sr-global.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="1994" column="3" lean-forward="true" selection-start-line="1994" selection-start-column="3" selection-end-line="1994" selection-end-column="3" />
+                <state relative-caret-position="65">
+                  <caret line="482" column="14" lean-forward="true" selection-start-line="482" selection-start-column="14" selection-end-line="482" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sr-loader.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="8809" column="18" selection-start-line="8809" selection-start-column="18" selection-end-line="8809" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sr-loader.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-loader.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="455">
@@ -198,6 +199,7 @@
       <find>sr1</find>
       <find>sr-empty__list-item</find>
       <find>sr-card</find>
+      <find>sr-product</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -313,6 +315,14 @@
               <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
               <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheet" type="462c0819:PsiDirectoryNode" />
+              <item name="app.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
+              <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -401,12 +411,12 @@
       <workItem from="1545125186539" duration="670000" />
       <workItem from="1545642093617" duration="22884000" />
       <workItem from="1546300008891" duration="14869000" />
-      <workItem from="1546414387295" duration="5624000" />
+      <workItem from="1546414387295" duration="6310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279711000" />
+    <option name="totallyTimeSpent" value="280397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -419,7 +429,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="RNConsole" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -592,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/scss/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -610,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="155" column="22" lean-forward="true" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="8799" column="8" selection-start-line="8799" selection-start-column="8" selection-end-line="8799" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -720,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="1994" column="3" lean-forward="true" selection-start-line="1994" selection-start-column="3" selection-end-line="1994" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-loader.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -802,10 +791,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="482" column="14" lean-forward="true" selection-start-line="482" selection-start-column="14" selection-end-line="482" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="297" column="28" lean-forward="true" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+        <state relative-caret-position="234">
+          <caret line="287" column="24" lean-forward="true" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
           <folding>
             <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -841,6 +844,13 @@
             <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8809" column="18" selection-start-line="8809" selection-start-column="18" selection-end-line="8809" selection-end-column="18" />
         </state>
       </provider>
     </entry>

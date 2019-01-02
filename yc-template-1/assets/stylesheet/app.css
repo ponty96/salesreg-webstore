@@ -8199,10 +8199,12 @@ input[type=text], [type=email], [type=password], textarea {
         color: #3c3f40;
         line-height: 1.6em; }
     .sr-product__detail .sr-product__contentMobile .sr-product__contentMobile--variant__spacing {
-      margin-bottom: 2rem; }
-      @media (max-width: 767.98px) {
+      display: block;
+      margin-bottom: 1rem; }
+      @media (min-width: 768px) {
         .sr-product__detail .sr-product__contentMobile .sr-product__contentMobile--variant__spacing {
-          margin-bottom: 1rem; } }
+          display: none;
+          margin-bottom: 2rem; } }
     .sr-product__detail .sr-product__contentMobile .sr-product__rating {
       display: block;
       padding: 0 0 1rem;
