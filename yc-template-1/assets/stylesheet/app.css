@@ -8752,39 +8752,15 @@ input[type=text], [type=email], [type=password], textarea {
     height: 2px; }
 
 .sr-card {
-  -webkit-box-shadow: 0 6px 20px 0 rgba(60, 63, 64, 0.07);
-  box-shadow: 0 6px 20px 0 rgba(60, 63, 64, 0.07);
-  height: 425px;
   position: relative;
-  width: 100%;
-  border: 1px solid #F5F6F6;
-  float: left;
-  margin-bottom: 40px;
-  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
-  transition: -webkit-box-shadow 0.2s ease-in-out;
-  transition: box-shadow 0.2s ease-in-out;
-  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out; }
-
-.sr-card__clickthrough {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: block;
-  height: 100%;
-  width: 100%; }
-
-.sr-card__default__image {
-  border-radius: 2px 2px 0 0;
-  background-color: #366ad3;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover; }
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; }
 
 .sr-featured-post__home {
   padding: 6rem 0 0; }
@@ -9220,6 +9196,17 @@ input[type=text], [type=email], [type=password], textarea {
       .sr-category__home .sr-category--one .sr-category--label span {
         text-transform: uppercase;
         font-size: 80%; }
+
+.sr-empty__list-item {
+  position: relative;
+  display: block;
+  margin-bottom: 2rem; }
+  .sr-empty__list-item .sr-card {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(233, 236, 239, 0.3); }
 
 .sr222 {
   visibility: visible;
@@ -9865,6 +9852,70 @@ a {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+.sr-product__loader {
+  position: relative;
+  display: block;
+  margin-bottom: 2rem; }
+  .sr-product__loader .sr-product__loader-wrapper {
+    background: #fff; }
+    .sr-product__loader .sr-product__loader-wrapper .timeline-item {
+      background: #fff;
+      border: 1px solid;
+      border-color: #ecedf0 #e9eaee #e3e4e8;
+      border-radius: 3px;
+      padding: .4rem;
+      margin: 0 auto; }
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0; }
+  100% {
+    background-position: 468px 0; } }
+.animated-background {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  min-height: 13rem;
+  height: 100%;
+  position: relative; }
+
+/* Every thing below this is just positioning */
+.background-masker {
+  background: #fff;
+  position: absolute; }
+  .background-masker.loader-divider, .background-masker.content-second-line, .background-masker.content-third-line, .background-masker.content-second-end, .background-masker.content-third-end, .background-masker.content-first-end {
+    left: 0;
+    bottom: 3rem;
+    right: 0;
+    height: 2rem; }
+  .background-masker.loader-divider {
+    height: 1rem; }
+  .background-masker.loader-title {
+    bottom: 1.8rem;
+    height: 1rem;
+    left: 0;
+    right: 0; }
+  .background-masker.loader-title-left {
+    bottom: .89rem;
+    height: 1rem;
+    right: 0;
+    width: calc(100% - 90%); }
+  .background-masker.loader-price {
+    bottom: .5rem;
+    height: .5rem;
+    left: 0;
+    right: 0; }
+  .background-masker.loader-price-left {
+    bottom: -0.20rem;
+    height: 1rem;
+    right: 0;
+    width: calc(100% - 50%); }
+
 .search {
   position: relative;
   margin: 0 auto; }
