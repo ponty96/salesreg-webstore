@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11b49360-c962-462e-832f-8b0319eaf578" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +31,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="204" column="32" lean-forward="true" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+                <state relative-caret-position="117">
+                  <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
                   <folding>
                     <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,45 +98,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sr-store.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-store.html">
+          <file leaf-file-name="sr-about.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="287" column="24" lean-forward="true" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
+                <state relative-caret-position="328">
+                  <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
                   <folding>
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#pre#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -146,8 +119,8 @@
           <file leaf-file-name="sr-global.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="1239" column="7" lean-forward="true" selection-start-line="1239" selection-start-column="7" selection-end-line="1239" selection-end-column="7" />
+                <state relative-caret-position="274">
+                  <caret line="668" column="2" selection-start-line="668" selection-start-column="2" selection-end-line="668" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -155,8 +128,8 @@
           <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="8203" column="33" lean-forward="true" selection-start-line="8203" selection-start-column="33" selection-end-line="8203" selection-end-column="33" />
+                <state relative-caret-position="123030">
+                  <caret line="8202" column="33" selection-start-line="8202" selection-start-column="33" selection-end-line="8202" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -164,7 +137,7 @@
           <file leaf-file-name="sr-loader.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-loader.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
+                <state relative-caret-position="930">
                   <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
                 </state>
               </provider>
@@ -214,6 +187,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -264,10 +242,10 @@
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-category.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-checkout-complete.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-cart.html" />
-        <option value="$PROJECT_DIR$/yc-template-1/views/sr-checkout.html" />
         <option value="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-loader.scss" />
         <option value="$PROJECT_DIR$/yc-template-1/index.html" />
         <option value="$PROJECT_DIR$/yc-template-1/views/sr-store.html" />
+        <option value="$PROJECT_DIR$/yc-template-1/views/sr-checkout.html" />
         <option value="$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss" />
       </list>
     </option>
@@ -306,27 +284,6 @@
               <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
               <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
-              <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
-              <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheet" type="462c0819:PsiDirectoryNode" />
-              <item name="app.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="yipcart-webstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yipcart-webstore" type="462c0819:PsiDirectoryNode" />
-              <item name="yc-template-1" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -337,7 +294,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shezvar1/Documents/LidStack/Personal/Product/yipcart/yipcart-webstore/yc-template-1/assets/stylesheet/sr-global.scss" />
+    <property name="SearchEverywhereHistoryKey" value="sr-hero__split__about&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -415,24 +372,28 @@
       <workItem from="1545125186539" duration="670000" />
       <workItem from="1545642093617" duration="22884000" />
       <workItem from="1546300008891" duration="14869000" />
-      <workItem from="1546414387295" duration="7514000" />
+      <workItem from="1546414387295" duration="8326000" />
+      <workItem from="1547334653707" duration="3000" />
+      <workItem from="1547503720791" duration="1147000" />
+      <workItem from="1547674798996" duration="351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281601000" />
+    <option name="totallyTimeSpent" value="283914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="RNConsole" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -623,30 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="805" column="35" lean-forward="true" selection-start-line="805" selection-start-column="35" selection-end-line="805" selection-end-column="35" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ol#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="84" column="10" lean-forward="true" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -654,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,16 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,27 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="303" column="10" lean-forward="true" selection-start-line="303" selection-start-column="10" selection-end-line="303" selection-end-column="10" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -721,15 +624,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-loader.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="930">
           <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123030">
+          <caret line="8202" column="33" selection-start-line="8202" selection-start-column="33" selection-end-line="8202" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="211" column="26" lean-forward="true" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-store.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#pre#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="204" column="32" lean-forward="true" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+        <state relative-caret-position="117">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -794,66 +767,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.scss">
+    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/views/sr-store.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="287" column="24" lean-forward="true" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
+        <state relative-caret-position="328">
+          <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
           <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#pre#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="8203" column="33" lean-forward="true" selection-start-line="8203" selection-start-column="33" selection-end-line="8203" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yc-template-1/assets/stylesheet/sr-global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="1239" column="7" lean-forward="true" selection-start-line="1239" selection-start-column="7" selection-end-line="1239" selection-end-column="7" />
+        <state relative-caret-position="274">
+          <caret line="668" column="2" selection-start-line="668" selection-start-column="2" selection-end-line="668" selection-end-column="2" />
         </state>
       </provider>
     </entry>
