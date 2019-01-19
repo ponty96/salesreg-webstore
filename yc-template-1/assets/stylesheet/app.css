@@ -9372,6 +9372,9 @@ a {
 .sr-block {
   display: block !important; }
 
+.sr-store {
+  margin-top: 8rem; }
+
 .sr-store__filter {
   position: relative; }
   .sr-store__filter .btn-group .btn-primary {
@@ -9384,7 +9387,6 @@ a {
     background-color: #366ad3;
     color: #fff; }
   .sr-store__filter .sr-filter-item {
-    margin-top: 2rem;
     /* :checked */
     /* Icon */ }
     .sr-store__filter .sr-filter-item .sr-filter-btn {

@@ -2183,6 +2183,11 @@ a {
   display: block!important;
 }
 
+
+.sr-store {
+  margin-top: 8rem;
+}
+
 .sr-store__filter {
   position: relative;
   .btn-group {
@@ -2199,7 +2204,7 @@ a {
     }
   }
   .sr-filter-item {
-    margin-top: 2rem;
+    //margin-top: 2rem;
     .sr-filter-btn {
       background-color: $white;
       color: $primary;

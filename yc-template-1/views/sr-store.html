@@ -107,26 +107,57 @@
 		<!-- Mobile Nav Mask -->
 		<div id="sr-sideNav--mobile__mask"></div>
 
-		<section class="sr-hero__split__store sr-hero__mainBg__store">
+		<section class="sr-store">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 sr-valign__middle__store">
+					<div class="col-12 sr-valign__middle__store">
 						<pre class="sr-sectionTitle" style="top:0; margin-left:0;">Store</pre>
-						<h1 class="sr-font--h1__primary">Lorem ipsum</h1>
+						<div class="d-block">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb bg-white p-0">
+									<li class="breadcrumb-item"><a href="#">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">Men</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Shoes</li>
+								</ol>
+							</nav>
+						</div>
+						<div class="d-flex align-items-center justify-content-between w-100 border-top border-bottom mb-3">
+							<div class="d-inline-block">
+								<h1 class="sr-font--h1__secondary d-inline-flex">All products</h1>
+								<span>(345)</span>
+							</div>
+
+							<div class="d-inline-block">
+								<div class="dropdown">
+									<button class="btn btn-outline-dark dropdown-toggle rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Sort product by
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="#">Most popular</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Highest price</a>
+										<a class="dropdown-item" href="#">Lowest price</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Best rating</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- Lists -->
-		<section class="sr-featured-post__home">
+		<section class="sr-featured-post__home pt-0">
 			<div class="container">
 				<div class="row">
 
 					<div class="col-md-3">
+						<div><h3>Refine Search</h3></div>
 						<div class="sr-store__filter">
 							<form>
-								<div class="btn-group btn-group-toggle w-100" data-toggle="buttons">
+								<div class="btn-group btn-group-toggle w-100 d-none" data-toggle="buttons">
 									<label class="btn btn-primary active">
 										<input type="radio" name="options" id="option1" autocomplete="off" checked> Products
 									</label>
@@ -139,6 +170,29 @@
 
 
 									<div class="half">
+
+										<div class="tab">
+											<input id="tab-cat" type="checkbox" name="tabs">
+											<label for="tab-cat">Browse Categories</label>
+											<div class="tab-content">
+												<div class="sr-form-check">
+													<ul>
+														<li class="">
+															<a class="sr-anchor" href="#">Shoes</a>
+														</li>
+														<li class="">
+															<a class="sr-anchor" href="#">Bags</a>
+														</li>
+														<li class="">
+															<a class="sr-anchor" href="#">Watches</a>
+														</li>
+														<li class="">
+															<a class="sr-anchor" href="#">Belts</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
 
 										<div class="tab">
 											<input id="tab-one" type="checkbox" name="tabs">
@@ -251,7 +305,7 @@
 						<div class="sr1">
 
 							<!-- Empty List -->
-							<div style="padding: 4rem 2rem 3rem">
+							<div style="padding: 4rem 2rem 3rem" class="d-none">
 								<div class="text-center">
 									<div style="max-width: 15rem; margin: 0 auto; padding-bottom: 3rem">
 										<img src="../../yc-template-1/assets/images/svg/empty-store-page.svg" style="width: 100%"/>
@@ -263,46 +317,7 @@
 							<!-- Empty List Ends-->
 
 							<!-- Loader List -->
-							<div class="sr-product__loader">
-								<div class="row">
-									<div class="col-lg-4 col-md-6 col-12">
-										<div class="sr-product__loader-wrapper">
-											<div class="timeline-item">
-												<div class="animated-background">
-													<div class="background-masker loader-title"></div>
-													<div class="background-masker loader-title-left"></div>
-													<div class="background-masker loader-price"></div>
-													<div class="background-masker loader-price-left"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-md-6 col-12">
-										<div class="sr-product__loader-wrapper d-md-block d-none">
-											<div class="timeline-item">
-												<div class="animated-background">
-													<div class="background-masker loader-title"></div>
-													<div class="background-masker loader-title-left"></div>
-													<div class="background-masker loader-price"></div>
-													<div class="background-masker loader-price-left"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-md-6 col-12">
-										<div class="sr-product__loader-wrapper d-lg-block d-none">
-											<div class="timeline-item">
-												<div class="animated-background">
-													<div class="background-masker loader-title"></div>
-													<div class="background-masker loader-title-left"></div>
-													<div class="background-masker loader-price"></div>
-													<div class="background-masker loader-price-left"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+
 							<!-- Loader List Ends-->
 
 							<ul itemscope itemtype="http://schema.org/BreadcrumbList" class="list-unstyled">
