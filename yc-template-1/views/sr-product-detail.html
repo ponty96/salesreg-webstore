@@ -497,16 +497,16 @@
 
 							<div class="sr-product__quantity">
 								<div class="row">
+
 									<div class="col-lg-6">
 										<div class="mb-3">
 											<div class="sr-labelled__labelWrapper">
 												<div class="sr-label">
-													<label id="TextField1Label" class="sr-label__text">Quantity</label>
+													<label class="sr-label__text">Quantity</label>
 												</div>
 											</div>
 											<div class="sr-textField">
 												<input class="sr-textField__input" type="number" value="1" aria-label="Quantity">
-												<div class="sr-textField__backDrop"></div>
 											</div>
 										</div>
 									</div>
@@ -515,57 +515,73 @@
 										<div class="mb-3">
 											<div class="sr-labelled__labelWrapper">
 												<div class="sr-label">
-													<label for="Select20" class="sr-label__text">Color</label>
+													<label class="sr-label__text">Color</label>
 												</div>
 											</div>
-											<div class="sr-select">
-												<select class="sr-select__input" aria-label="select option">
-													<option value="today" aria-label="Blue">Blue</option>
-													<option value="yesterday" aria-label="Yellow">Yellow</option>
-													<option value="lastWeek" aria-label="Black">Black</option>
-												</select>
-												<div class="sr-select__content" aria-hidden="true">
-													<span class="sr-select__selectedOption">Selected</span>
-													<span class="sr-select__icon">
-														<span class="sr-icon">
-															<svg class="sr-icon__svg" viewBox="0 0 20 20" focusable="false" aria-hidden="true"><path
-																d="M13 8l-3-3-3 3h6zm-.1 4L10 14.9 7.1 12h5.8z" fill-rule="evenodd">
-															</path>
-															</svg>
-														</span>
-													</span>
+
+											<div class="dropdown">
+												<button class="dLabel dropdown-select" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Select
+													<span class="caret"></span>
+												</button>
+												<div class="dropdown-menu" style="overflow: hidden; flex: 1;max-height: 30rem; overflow-y: auto">
+													<ul tabindex="-1" role="listbox" class="" aria-labelledby="dLabel" style="min-width: 0.25%; transform: translate3d(-3px, -3px, 0px)!important;">
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">Blue</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">Yellow</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">Gold</span>
+														</li>
+													</ul>
 												</div>
-												<div class="sr-select__backdrop"></div>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-lg-6">
+									<div class="col-12">
 										<div class="mb-3">
 											<div class="sr-labelled__labelWrapper">
 												<div class="sr-label">
-													<label id="Select20Label" for="Select20" class="sr-label__text">Size</label>
+													<label class="sr-label__text">Size</label>
 												</div>
 											</div>
-											<div class="sr-select">
-												<select id="Select20" class="sr-select__input" aria-label="select size">
-													<option value="today" aria-label="M">M</option>
-													<option value="yesterday" aria-label="L">L</option>
-													<option value="lastWeek" aria-label="XL">XL</option>
-													<option value="lastWeek" aria-label="XXL">XXL</option>
-												</select>
-												<div class="sr-select__content" aria-hidden="true">
-													<span class="sr-select__selectedOption">Selected</span>
-													<span class="sr-select__icon">
-														<span class="sr-icon">
-															<svg class="sr-icon__svg" viewBox="0 0 20 20" focusable="false" aria-hidden="true"><path
-																d="M13 8l-3-3-3 3h6zm-.1 4L10 14.9 7.1 12h5.8z" fill-rule="evenodd">
-															</path>
-															</svg>
-														</span>
-													</span>
+
+											<div class="dropdown">
+												<button id="" class="dLabel dropdown-select" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Select
+													<span class="caret"></span>
+												</button>
+												<div class="dropdown-menu" style="overflow: hidden; flex: 1;max-height: 30rem; overflow-y: auto">
+													<ul tabindex="-1" role="listbox" class="" aria-labelledby="dLabel" style="min-width: 0.25%; transform: translate3d(-3px, -3px, 0px)!important;">
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">13 NG Women / 11 NG Men</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__unavailable" data-toggle="modal" data-target="#exampleModalCenter">13 NG Women / 11 NG Men</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__unavailable" data-toggle="modal" data-target="#exampleModalCenter">13 NG Women / 11 NG Men</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">13 NG Women / 11 NG Men</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">13 NG Women / 11 NG Men</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">13 NG Women / 11 NG Men</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__unavailable" data-toggle="modal" data-target="#exampleModalCenter">13 NG Women / 11 NG Men</span>
+														</li>
+														<li tabindex="0" role="option" aria-checked="true">
+															<span tabindex="-1" class="yp-aLink__available">13 NG Women / 11 NG Men</span>
+														</li>
+													</ul>
 												</div>
-												<div class="sr-select__backdrop"></div>
 											</div>
 										</div>
 									</div>
@@ -654,118 +670,12 @@
 									<img src="../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"
 									     itemprop="image"/>
 									<div class="srShare2">
-										<span><i class="fab fa-facebook-f"></i> </span>
-										<span><i class="fab fa-twitter"></i> </span>
-										<span><i class="fab fa-instagram"></i> </span>
-									</div>
-								</div>
-							</a>
-							<div class="srPostMeta2">
-								<a href="sr-product-detail.html" class="srPostInfo2">
-									<h3 class="srProductTitle" itemprop="name">Testing for muzil style of grid listing to know which to
-										choose from at the end</h3>
-									<h3 class="srProductPrice">$20.99</h3>
-								</a>
-
-								<div class="srDetails2" itemprop="aggregateRating"
-								     itemscope itemtype="http://schema.org/AggregateRating">
-									<div class="srRating">
-										<div class="srRatingItem">
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingEmpty"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingEmpty"></i> </span>
-										</div>
-										<div class="srRatingCount" itemprop="reviewCount">(30)</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li itemprop="itemListElement" itemscope
-					    itemtype="http://schema.org/ListItem">
-						<div class="srTitle2">
-							<a class="srFeedLink2" href="sr-product-detail.html" itemprop="url">
-								<div class="srPostPhoto2">
-									<img src="../assets/images/Indigo0096.jpg" alt="testing image" style="opacity: 1" itemprop="image"/>
-									<div class="srShare2">
-										<span><i class="fab fa-facebook-f"></i> </span>
-										<span><i class="fab fa-twitter"></i> </span>
-										<span><i class="fab fa-instagram"></i> </span>
-									</div>
-								</div>
-							</a>
-							<div class="srPostMeta2">
-								<a href="sr-product-detail.html" class="srPostInfo2">
-									<h3 class="srProductTitle" itemprop="name">Testing for muzil style of grid listing to know which to
-										choose from at the end</h3>
-									<h3 class="srProductPrice">$20.99</h3>
-								</a>
-
-								<div class="srDetails2" itemprop="aggregateRating"
-								     itemscope itemtype="http://schema.org/AggregateRating">
-									<div class="srRating">
-										<div class="srRatingItem">
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingEmpty"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingEmpty"></i> </span>
-										</div>
-										<div class="srRatingCount" itemprop="reviewCount">(30)</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li itemprop="itemListElement" itemscope
-					    itemtype="http://schema.org/ListItem">
-						<div class="srTitle2">
-							<a class="srFeedLink2" href="sr-product-detail.html" itemprop="url">
-								<div class="srPostPhoto2">
-									<img src="../assets/images/cross-board.jpg" alt="testing image" style="opacity: 1" itemprop="image"/>
-									<div class="srShare2">
-										<span><i class="fab fa-facebook-f"></i> </span>
-										<span><i class="fab fa-twitter"></i> </span>
-										<span><i class="fab fa-instagram"></i> </span>
-									</div>
-								</div>
-							</a>
-							<div class="srPostMeta2">
-								<a href="sr-product-detail.html" class="srPostInfo2">
-									<h3 class="srProductTitle" itemprop="name">Testing for muzil style of grid listing to know which to
-										choose from at the end</h3>
-									<h3 class="srProductPrice">$20.99</h3>
-								</a>
-
-								<div class="srDetails2" itemprop="aggregateRating"
-								     itemscope itemtype="http://schema.org/AggregateRating">
-									<div class="srRating">
-										<div class="srRatingItem">
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingIcon"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingEmpty"></i> </span>
-											<span itemprop="ratingValue"><i class="fa fa-star srRatingEmpty"></i> </span>
-										</div>
-										<div class="srRatingCount" itemprop="reviewCount">(30)</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li itemprop="itemListElement" itemscope
-					    itemtype="http://schema.org/ListItem">
-						<div class="srTitle2">
-							<a class="srFeedLink2" href="sr-product-detail.html" itemprop="url">
-								<div class="srPostPhoto2">
-									<img src="../assets/images/Model-with-bag.jpg" alt="testing image" style="opacity: 1"
-									     itemprop="image"/>
-									<div class="srShare2">
-										<span><i class="fab fa-facebook-f"></i> </span>
-										<span><i class="fab fa-twitter"></i> </span>
-										<span><i class="fab fa-instagram"></i> </span>
+										<button style="background: none; border: none; background: transparent; -webkit-background-image: none">
+											<span><i class="fab fa-facebook-f"></i> </span>
+										</button>
+										<button style="background: none; border: none; background: transparent; -webkit-background-image: none">
+											<span><i class="fab fa-twitter"></i> </span>
+										</button>
 									</div>
 								</div>
 							</a>
@@ -875,6 +785,77 @@
 	</div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div>
+					<h5 class="modal-title" id="exampleModalCenterTitle">Out of Stock</h5>
+					<p class="mb-0">Notify me when this is back in stock</p>
+				</div>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body" style="overflow-y: auto; max-height: 70vh">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="card border-0">
+								<img class="card-img-top" src="../assets/images/eye-glass.jpg" alt="Card image cap">
+								<div class="card-body px-0">
+									<h6>Leather shoe (Brown)</h6>
+									<p class="card-text">N18,000</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="card border-0">
+								<img class="card-img-top" src="../assets/images/eye-glass.jpg" alt="Card image cap">
+								<div class="card-body px-0">
+									<h6>Leather shoe (Brown)</h6>
+									<p class="card-text">N18,000</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="card border-0">
+								<img class="card-img-top" src="../assets/images/eye-glass.jpg" alt="Card image cap">
+								<div class="card-body px-0">
+									<h6>Leather shoe (Brown)</h6>
+									<p class="card-text">N18,000</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="card border-0">
+								<img class="card-img-top" src="../assets/images/eye-glass.jpg" alt="Card image cap">
+								<div class="card-body px-0">
+									<h6>Leather shoe (Brown)</h6>
+									<p class="card-text">N18,000</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="card border-0">
+								<img class="card-img-top" src="../assets/images/eye-glass.jpg" alt="Card image cap">
+								<div class="card-body px-0">
+									<h6>Leather shoe (Brown)</h6>
+									<p class="card-text">N18,000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="../assets/javascript/jquery-3.3.1.min.js"></script>
@@ -892,6 +873,13 @@
                 elm.addClass("open");
             }
         });
+    });
+</script>
+
+<script>
+    $('.dropdown-menu li').on('click', function() {
+        var getValue = $(this).text();
+        $('.dropdown-select').text(getValue);
     });
 </script>
 
