@@ -1,7 +1,7 @@
 
 
-@mixin yc-productItem__product ($productTitle) {
-  .yc-product__size {
+@mixin yp-productItem__product ($productTitle) {
+  .yp-product__size {
     @include media-breakpoint-up(md) {
       padding-left: .7rem;
       padding-right: .7rem;
@@ -14,44 +14,38 @@
     padding-right: .5rem;
     //margin-right: -24px;
     //margin-right: -24px;
-    .yc-productItem__image__blur {
-      contain: strict;
+    .yp-productItem__image__blur {
       position: relative;
       width: 100%;
-      z-index: 0;
-      border-bottom-left-radius: 3px;
-      border-bottom-right-radius: 3px;
-      border-top-left-radius: 3px;
-      border-top-right-radius: 3px;
-      overflow: hidden;
-      .yc-productItem__imagePosition {
-        position: absolute;
+      z-index: 1;
+      .yp-productItem__imagePosition {
+        position: relative;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
         height: 100%;
         width: 100%;
-        .yc-productItem__image__main {
-          position: absolute;
-          animation-name: keyframe_18jn58a;
-          animation-duration: 300ms;
-          animation-timing-function: ease-out;
-          background-size: cover;
-          background-position: 50% 50%;
-          background-repeat: no-repeat;
+        img {
+          @include media-breakpoint-up(lg) {
+            height: 25rem;
+          }
+          height: 15rem;
+          width: 100%;
+          object-fit: cover;
         }
       }
+
     }
-    .yc-productItem__linkWrapper {
+    .yp-productItem__linkWrapper {
       width: 100%;
       padding-top: .5rem;
       padding-bottom: .4rem;
       display: block;
-      color: $yc-productTitleColor;
+      color: $yp-productTitleColor;
       text-decoration: none;
 
-      .yc-productItem__titleWrapper {
+      .yp-productItem__titleWrapper {
         @include media-breakpoint-up(sm) {
           max-height: 3rem;
         }
@@ -63,9 +57,9 @@
         overflow: hidden;
       }
     }
-    &:hover .yc-position__relative
-    .yc-productItem__linkWrapper {
-      color: lighten($yc-productTitleColor, 20%);
+    &:hover .yp-position__relative
+    .yp-productItem__linkWrapper {
+      color: lighten($yp-productTitleColor, 20%);
     }
   }
 }

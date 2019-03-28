@@ -1,5 +1,5 @@
 
-.yc-menu {
+.yp-menu {
   @include media-breakpoint-up(md) {
     display: none;
   }
@@ -54,7 +54,7 @@
   bottom: 0;
 }
 
-.yc-menu.open {
+.yp-menu.open {
   .menu-line-1 {
     transform: translateY(7px) translateY(-50%) rotate(-45deg);
   }
@@ -79,7 +79,7 @@
 //  transition: transform 0.3s ease-in-out;
 //}
 
-//.yc-menu {
+//.yp-menu {
 //  &:hover .menu-circle {
 //    transform: scale(1.5);
 //  }
@@ -90,7 +90,7 @@
 
 /* ------------- */
 
-.yc-menu-overlay {
+.yp-menu-overlay {
   background-color: #fff;
   color: #333;
   height: 100%;
@@ -109,22 +109,22 @@
     opacity: 1;
     visibility: visible;
   }
-  .yc-main__sideNav-mobile__u {
+  .yp-main__sideNav-mobile__u {
     padding-left: 0;
     list-style: none;
-    .yc-main__sideNav-mobile__l {
+    .yp-main__sideNav-mobile__l {
       display: block;
-      .yc-main__sideNav-mobile__a {
+      .yp-main__sideNav-mobile__a {
         padding: 1rem 0 0;
         display: block;
-        color: $yc-sideNav__textColor;
-        font: $yc-sideNav-Font;
+        color: $yp-sideNav__textColor;
+        font: $yp-sideNav-Font;
       }
     }
   }
-  .yc-main__mobileNav__social {
+  .yp-main__mobileNav__social {
     display: table;
-    .yc-main__sideNav-mobile__socialItem {
+    .yp-main__sideNav-mobile__socialItem {
       display: table-cell;
     }
   }
@@ -145,7 +145,7 @@
   color: #111825;
 }
 
-.yc-main__sideNav {
+.yp-main__sideNav {
   @include media-breakpoint-up(md) {
     display: block;
   }
@@ -153,7 +153,7 @@
   position: absolute;
   top: 0;
   bottom: -2rem;
-  .yc-main__sideNav-wrapper {
+  .yp-main__sideNav-wrapper {
     @include media-breakpoint-up(md) {
       width: 15rem;
     }
@@ -171,13 +171,13 @@
     align-items: stretch;
     -webkit-transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: $yc-sideNavBG;
+    background-color: $yp-sideNavBG;
     border-right: 0.1rem solid #FBF9F4;
-    .yc-main__sideNav-scroll {
+    .yp-main__sideNav-scroll {
       overflow-y: auto;
       height: 100%;
       background-color: transparent;
-      .yc-main__sideNav-brand {
+      .yp-main__sideNav-brand {
         @include media-breakpoint-down(sm) {
           padding: 1rem;
         }
@@ -185,18 +185,18 @@
         align-items: center;
         justify-content: space-between;
         padding: 2rem;
-        .yc-main__brand-logo {
+        .yp-main__brand-logo {
           width: 100%;
           max-width: 5rem;
         }
       }
-      .yc-main__sideNav-menu {
+      .yp-main__sideNav-menu {
         display: flex;
         flex-direction: column;
         position: relative;
         flex: 1 1 100%;
         overflow: hidden;
-        .yc-main__sideNav-menu__box {
+        .yp-main__sideNav-menu__box {
           @include media-breakpoint-down(sm) {
             padding-left: 1rem;
           }
@@ -211,23 +211,23 @@
           overflow-y: auto;
           flex: 1 1 auto;
           transition: padding 220ms;
-          .yc-main__sideNav-u {
+          .yp-main__sideNav-u {
             padding-left: 0;
             list-style: none;
-            .yc-main__sideNav-l {
+            .yp-main__sideNav-l {
               display: block;
-              .yc-main__sideNav-a {
+              .yp-main__sideNav-a {
                 padding: 1rem 0 0;
                 display: block;
-                color: $yc-sideNav__textColor;
-                font: $yc-sideNav-Font;
+                color: $yp-sideNav__textColor;
+                font: $yp-sideNav-Font;
               }
             }
           }
         }
       }
     }
-    .yc-main__sideNav-footer {
+    .yp-main__sideNav-footer {
       @include media-breakpoint-down(sm) {
         padding-left: 1rem;
       }

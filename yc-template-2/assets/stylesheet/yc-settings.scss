@@ -1,40 +1,41 @@
 
 
-$yc-font: 'Avenir Next', sans-serif;
+$yp-font: 'Avenir Next', sans-serif;
 
-$yc-productTitle: normal normal normal normal 1.3em/19px $yc-font;
+//$yp-productTitle: normal normal normal normal 1.3em/19px $yp-font;
 
-$yc-productTitleColor: rgb(72, 72, 72);
+$yp-productTitleColor: rgb(72, 72, 72);
 
-$yc-sideNavBG: #FBF9F4;
+$yp-sideNavBG: #FBF9F4;
 
 // side nav
-$yc-sideNav__textColor: $black;
+$yp-sideNav__textColor: $black;
 
-$yc-sideNav-Font: normal normal normal normal 1.3em/2rem $yc-font;
-
-
+$yp-sideNav-Font: normal normal normal normal 1.3em/2rem $yp-font;
 
 
-.yc-title__product {
-  font: $yc-productTitle;
 
-  //font-style: normal;
-  //font-variant: normal;
-  //font-weight: normal;
-  //font-stretch: normal;
-  //font-size: 13px;
-  //line-height: 19px;
-  //font-family: sans-serif;
+
+.yp-title__product {
+
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 1.1em;
+  line-height: 1;
+  letter-spacing: .02em;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
-.yc-price__product {
-  color: #979CA9;
+.yp-price__product {
+  color: #848484;
   overflow-wrap: break-word;
-  font-size: 1.1em;
-  line-height: 18px;
+  font-size: .9em;
+  line-height: 1;
   letter-spacing: normal;
-  font-weight: normal;
+  font-weight: 500;
   display: inline;
   margin: 0;
 }

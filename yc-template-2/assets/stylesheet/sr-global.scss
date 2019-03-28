@@ -2,10 +2,10 @@
   -webkit-font-smoothing: antialiased;
   //-moz-osx-font-smoothing: auto;
   -moz-osx-font-smoothing: grayscale;
-  font-family: $yc-font;
+  font-family: $yp-font;
 }
 
-.yc-main__wrapper {
+.yp-main__wrapper {
   @include media-breakpoint-up(md) {
     margin-left: 15rem;
   }
@@ -19,7 +19,7 @@
   min-height: calc(100vh - 3rem);
 }
 
-.yc-main__header {
+.yp-main__header {
   @include media-breakpoint-up(md) {
     margin-left: 15rem;
   }
@@ -41,7 +41,7 @@
   transition: ease all 0.3s;
   z-index: 5;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.14);
-  .yc-main__header-table {
+  .yp-main__header-table {
     min-height: 2.5rem;
   }
 }
@@ -49,7 +49,7 @@
 
 // search
 
-.yc-search {
+.yp-search {
   input {
     border: 1px solid #ccc;
     font-size: 1em;
@@ -76,7 +76,7 @@
     }
   }
 
-  .yc-search-wrapper {
+  .yp-search-wrapper {
     position: relative;
     &.one {
       input {
