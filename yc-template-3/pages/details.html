@@ -100,13 +100,11 @@
 						<div id="wsite-com-product-divider"></div>
 						<div id="wsite-com-product-area" itemscope="" itemtype="http://schema.org/Product">
 							<div id="wsite-com-product-images">
-								<div id="cloudzoom-wrap" style="top:0px;position:relative;">
+								<div id="cloudzoom-wrap" style="top:0; position: relative">
 									<a href="../assets/images/image1.jpeg" class="cloud-zoom" id="zoom1" style="position: relative; display: block;">
 										<img src="../assets/images/image1.jpeg" class="wsite-com-product-images-main-image" itemprop="image" style="display: block;">
 										<div class="cloud-zoom-lens" style="display: none; z-index: 98; position: absolute; width: 120.763px; height: 120.763px; opacity: 0.5; left: 207px; top: 363px; background-position: -207px -363px;"></div>
 									</a>
-									<div class="mousetrap" style="background-image: url(../assets/images/image1.jpeg); z-index: 2; position: absolute; width: 488px; height: 488px; left: 0px; top: 0px; cursor: pointer;"></div>
-									<div id="cloud-zoom-big" class="cloud-zoom-big" style="position: absolute; left: 0px; top: 0px; width: 488px; height: 488px; background-image: url(&quot;https://xander.templates.editmysite.com/uploads/8/9/1/7/89179606/s364572055846425945_p1_i2_w1972.jpeg&quot;); z-index: 1; background-position: -836px -1465px;"></div>
 								</div>
 							</div>
 							<div id="wsite-com-product-info">
@@ -261,7 +259,7 @@
 </div>
 
 <div id="wsite-menus"></div>
-<div id="wsite-mini-cart" class="wsite-cart-contents cart-init" style="display: none;">
+<div id="wsite-mini-cart" class="wsite-cart-contents cart-init">
 	<ul class="wsite-product-list">
 		<li>
 			<div class="wsite-empty-cart">Empty Cart</div>
@@ -280,5 +278,28 @@
 		</div>
 	</div>
 </div>
+
+<script src="../assets/javascript/jquery-3.3.1.min.js"></script>
+
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            var $menuRevealBtn = $('#menu-reveal');
+            var $sideNav = $('#sr-sideNav--mobile');
+            var $sideNavMask = $('#sr-sideNav--mobile__mask');
+
+            $menuRevealBtn.on('click', function () {
+                $sideNav.addClass('visible');
+                $sideNavMask.addClass('visible');
+            });
+
+            $sideNavMask.on('click', function () {
+                $sideNav.removeClass('visible');
+                $sideNavMask.removeClass('visible');
+            });
+        });
+    })(jQuery)
+</script>
+
 </body>
 </html>
