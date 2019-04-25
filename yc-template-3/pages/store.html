@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/social-icons.css?buildtime=1528764850" media="screen,projection">
 	<link rel="stylesheet" type="text/css" href="../assets/styles/app.css" title="wsite-theme-css">
 	<link href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,700,400italic,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="no-header-page  wsite-page-shop  nav-position-sidebar sticky-nav-on full-width-nav-on full-width-body-off header-overlay-on  wsite-theme-light fade-in">
 
@@ -29,23 +30,6 @@
 				</span>
 			</div>
 
-			<div class="nav desktop-nav">
-				<ul class="wsite-menu-default">
-					<li class="wsite-menu-item-wrap wsite-nav-1" style="position: relative;">
-						<a href="../index.html" class="wsite-menu-item " style="position: relative;">Home</a>
-					</li>
-					<li id="active" class="wsite-menu-item-wrap wsite-nav-2" style="position: relative;">
-						<a href="../pages/store.html" class="wsite-menu-item active" style="position: relative;">Shop</a>
-					</li>
-					<li class="wsite-menu-item-wrap wsite-nav-3" style="position: relative;">
-						<a href="../pages/about.html" class="wsite-menu-item " style="position: relative;">About</a>
-					</li>
-					<li class="wsite-menu-item-wrap wsite-nav-5" style="position: relative;">
-						<a href="../pages/contact.html" class="wsite-menu-item " style="position: relative;">Contact</a>
-					</li>
-				</ul>
-			</div>
-
 			<div class="nav sidebar-nav">
 				<div class="nav-wrap">
 					<ul class="wsite-menu-default">
@@ -58,15 +42,16 @@
 						<li class="wsite-menu-item-wrap ">
 							<a href="../pages/about.html" class="wsite-menu-item ">About</a>
 						</li>
-						<li class="wsite-menu-item-wrap ">
-							<a href="../pages/contact.html" class="wsite-menu-item ">Contact</a>
+						<li class="wsite-menu-item-wrap" style="margin-top: 1rem">
+							<div class="wsite-menu-item" style="display: flex; align-items: center; cursor: pointer">
+								<i class="material-icons">
+									shopping_cart
+								</i>
+								<span>0 item</span>
+							</div>
 						</li>
 					</ul>
 				</div>
-			</div>
-
-			<div class="nav membership-cart">
-				<span id="member-login" class="wsite-custom-membership-wrapper"></span>
 			</div>
 		</div>
 
@@ -84,67 +69,12 @@
 					<div class="wsite-section-content">
 						<div class="container">
 							<div class="wsite-section-elements">
-								<div class="commerce-elements-wrapper categories__published">
-									<div class="pagination__overlay"></div>
-									<div class="commerce-layout-wrapper">
-										<div class="product-grid product-grid-columns--2 product-grid-layout--hover">
-											<div class="product-grid__item">
-												<a class="product-grid__item-overlay" href="../pages/details.html"></a>
-												<div class="product-grid__content">
-													<div class="product-grid__images">
-														<div
-															class="product-grid-image image-1 product-grid-image__default product-grid-image-aspect--3-4 js-default-img"
-															style="background-image: url(../assets/images/image1.jpeg)">
-														</div>
-													</div>
-													<div class="product-grid__overlay">
-														<div class="product-grid__overlay-inner">
-															<div class="product-grid__info" style="text-align:center">
-																<h2 class="product-grid__title">
-																	<span class="product-grid-reset">Women's Collection</span>
-																</h2>
-																<div class="product-grid__button">
-																	<a href="../pages/details.html" class="wsite-button wsite-button-small wsite-button-normal">
-																		<span class="wsite-button-inner">Shop</span>
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="product-grid__item">
-												<a class="product-grid__item-overlay" href="../pages/details.html"></a>
-												<div class="product-grid__content">
-													<div class="product-grid__images">
-														<div class="product-grid-image image-1 product-grid-image__default product-grid-image-aspect--3-4 js-default-img" style="background-image: url(../assets/images/image1.jpeg)"></div>
-													</div>
-													<div class="product-grid__overlay">
-														<div class="product-grid__overlay-inner">
-															<div class="product-grid__info" style="text-align:center">
-																<h2 class="product-grid__title">
-																	<span class="product-grid-reset">Men's Collection</span>
-																</h2>
-																<div class="product-grid__button">
-																	<a href="../pages/details.html" class="wsite-button wsite-button-small wsite-button-normal">
-																		<span class="wsite-button-inner">Shop</span>
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
 
-										</div>
-
-									</div>
-								</div>
 
 								<div class="commerce-elements-wrapper products__published">
 									<div class="pagination__overlay"></div>
 									<div class="commerce-layout-wrapper">
-										<div class="product-grid product-grid-columns--3 product-grid-layout--above">
+										<div class="product-grid product-grid-columns--4 product-grid-layout--above">
 
 											<div class="product-grid__item">
 												<a class="product-grid__item-overlay" href="../pages/details.html"></a>
@@ -254,36 +184,14 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
-
 		</div>
-
 	</div>
 
 	<div class="footer-wrap">
 		<div class="footer">
 			<div class="wsite-elements wsite-footer">
-				<div>
-					<div class="wsite-multicol">
-						<div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-							<table class="wsite-multicol-table">
-								<tbody class="wsite-multicol-tbody">
-								<tr class="wsite-multicol-tr">
-									<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-										<div class="wsite-spacer" style="height:50px;"></div>
-									</td>
-									<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-										<div class="wsite-spacer" style="height:50px;"></div>
-									</td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-
 				<div class="yipCart-footer" style="text-align:right;">
 					<div style="height:10px;overflow:hidden"></div>Proudly powered by <a href="../index.html">YipCart</a>
 					<div style="height:10px;overflow:hidden"></div>
@@ -293,9 +201,9 @@
 	</div>
 </div>
 
-<div class="nav mobile-nav">
+<div class="nav mobile-nav" style="display: none">
 	<label class="hamburger"><span></span></label>
-	<ul class="wsite-menu-default">
+	<ul class="wsite-menu-default" style="text-align: center; margin: 2rem 3rem 1rem; list-style: none;">
 		<li  class="wsite-menu-item-wrap ">
 			<a href="../index.html" class="wsite-menu-item ">Home</a>
 		</li>
@@ -305,16 +213,29 @@
 		<li class="wsite-menu-item-wrap ">
 			<a href="../pages/about.html" class="wsite-menu-item ">About</a>
 		</li>
-		<li class="wsite-menu-item-wrap ">
-			<a href="../pages/contact.html" class="wsite-menu-item ">Contact</a>
-		</li>
-		<span id="member-login" class="wsite-custom-membership-wrapper"></span>
 	</ul>
 </div>
 
 <div id="wsite-menus"></div>
-<div id="wsite-mini-cart" class="wsite-cart-contents cart-init" style="display: none;">
+<div id="wsite-mini-cart" class="wsite-cart-contents">
+	<div id="closeCart" class="pull-right" style="cursor: pointer">
+		<i class="material-icons">
+			close
+		</i>
+	</div>
 	<ul class="wsite-product-list">
+
+		<li>
+			<div class="wsite-product-image">
+				<img src="../assets/images/image1.jpeg" style="width: 100%; max-width: 5rem"/>
+			</div>
+			<div class="wsite-product-cart-item">
+				<div class="wsite-name-title">Leather Shoe</div>
+				<div class="wsite-name-others">2</div>
+				<div class="wsite-name-others">N23,000.00</div>
+			</div>
+		</li>
+
 		<li>
 			<div class="wsite-empty-cart">Empty Cart</div>
 		</li>
@@ -322,7 +243,7 @@
 
 	<div class="wsite-cart-bottom">
 		<div class="wsite-vertical-align wsite-subtotal-wrapper">
-			<span>Subtotal:</span>
+			<span>Total:</span>
 			<span class="wsite-price">$0.00</span>
 		</div>
 		<div class="wsite-vertical-align wsite-button-wrapper">
@@ -332,5 +253,31 @@
 		</div>
 	</div>
 </div>
+
+<script src="../assets/javascript/jquery-3.3.1.min.js"></script>
+
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            var $navCartCount = $('.wsite-menu-item-wrap');
+            var $wsiteMiniCart = $('#wsite-mini-cart');
+            var $cartClose = $('#closeCart');
+            var $mobileHamburger = $('.hamburger');
+            var $mobileMenu = $('.mobile-nav');
+
+            $navCartCount.on('click', function () {
+                $wsiteMiniCart.addClass('cart-visible');
+            });
+
+            $mobileHamburger.on('click', function () {
+                $mobileMenu.toggle();
+            });
+
+            $cartClose.on('click', function () {
+                $wsiteMiniCart.removeClass('cart-visible');
+            })
+        });
+    })(jQuery)
+</script>
 </body>
 </html>
